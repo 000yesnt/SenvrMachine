@@ -1,6 +1,20 @@
+
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
-chatbot = ChatBot("Senvr100")
+from chatterbot.trainers import ChatterBotCorpusTrainer
+
+trainer = ChatterBotCorpusTrainer(ChatBot)
+
+chatbot = ChatBot(
+    'Senvr200',
+    logic_adapters=[
+        {
+            'import_path': 'chatterbot.logic.BestMatch',
+            'default_response': 'I am sorry, but I do not understand.',
+            'maximum_similarity_threshold': 0.90
+        }
+    ]
+)
 import senvrlib as snv
 conversation = [
     "Hello",
@@ -19,3 +33,5 @@ with open('568022407701594112/readdata') as my_file:
 trainer = ListTrainer(chatbot)
 
 trainer.train(conversation)
+trainer.train("chatterbot.corpus.english.greetings")
+trainer.train("chatterbot.corpus.english.conversations")

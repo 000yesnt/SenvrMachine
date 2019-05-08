@@ -3,7 +3,9 @@ import os, re, os.path, logging, datetime, random
 from pathlib import Path
 from spellchecker import SpellChecker
 from difflib import SequenceMatcher
+from shutil import copyfile
 
+path="."
 #random line of file
 def random_line(fname):
     lines = open(fname).read().splitlines()
@@ -15,7 +17,18 @@ def similar(a, b):
 def word_count(stdIn):
     words=strFilter(stdIn).split(" ")
     return len(words)
-
+#clear file of repeated lines
+def clean_file(filename):
+    copyfile(path+"/"+filename, path+"/"+filename+".old")
+    lines_seen = set() # holds lines already seen
+    outfile = open(path+"/"+filename, "w")
+    for line in open(path+"/"+filename+".old", "r"):
+        if line not in lines_seen: # not a duplicate
+            outfile.write(line)
+            lines_seen.add(line)
+    outfile.close()
+    os.remove(path+"/"+filename+".old")
+    
 #filter text to a-Z0-9
 def strFilter(stdin):
 	return re.sub("[^a-zA-Z0-9]"," ", stdin.lower().strip())

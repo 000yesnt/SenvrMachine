@@ -1,7 +1,18 @@
 from chatterbot import ChatBot
 import senvrlib as snv
 import sys
-chatbot = ChatBot('Senvr100',trainer='chatterbot.trainers.ListTrainer')
+chatbot = ChatBot(
+    'Senvr200',
+    trainer='chatterbot.trainers.ListTrainer',
+    logic_adapters=[
+        {
+            'import_path': 'chatterbot.logic.BestMatch',
+            'default_response': 'FAIL',
+            'maximum_similarity_threshold': 0.70
+        }
+    ]
+)
+
 
 def chat(stdIn):
 	response = chatbot.get_response(stdIn)
