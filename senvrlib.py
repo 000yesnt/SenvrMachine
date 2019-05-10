@@ -26,7 +26,7 @@ def clean_file(filename):
     lines_seen = set() # holds lines already seen
     outfile = open(path+"/"+filename, "w")
     for line in open(path+"/"+filename+".old", "r"):
-        if line not in lines_seen: # not a duplicate
+        if line not in lines_seen and not strFilter(line).startswith("http"): # not a duplicate
             outfile.write(line)
             lines_seen.add(line)
     outfile.close()
