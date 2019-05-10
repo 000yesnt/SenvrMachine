@@ -1,4 +1,4 @@
-print("Loading libraries...\n\n")
+print("Loading libraries...\n")
 import discord
 from discord.ext import commands
 import random

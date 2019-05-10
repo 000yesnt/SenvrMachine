@@ -26,6 +26,10 @@ def chat(stdIn):
 		print("Skipped this line.")
 	return response
 print("Testing the chatbot...")
-testLine=snv.random_line('568022407701594112/readdata')
-print('Using line "'+testLine+'"')
-chat(testLine)
+try:
+    testLine=snv.random_line('568022407701594112/readdata')
+    print('>"'+testLine+'"')
+    chat(testLine)
+except Exception as e:
+    print(">Hello")
+    chat("Hello")

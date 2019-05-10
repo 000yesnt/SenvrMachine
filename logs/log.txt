@@ -17822,3 +17822,6 @@ INFO:chatterbot.chatterbot:Response selected. Using ""
 INFO:chatterbot.chatterbot:BestMatch selected "" as a response with a confidence of 0.6
 INFO:chatterbot.chatterbot:Adding "ill kill you" as a response to "shut up"
 NEW: 05-10-2019
+NEW: 05-10-2019
+NEW: 05-10-2019
+NEW: 05-10-2019
