@@ -1,0 +1,4580 @@
+ problem 
+ seriously  serious problem 
+ the perms for trusted are fucked up 
+ i can mute you server wide 
+ and move you to other rooms 
+ hey how good does youtube play on rpi 
+ 3b 
+ idk 
+ they have an os just for netflix  youtube  twitch  etc  
+ it runs pretty good 
+ kodi  
+ openelec and xmbc 
+ o 
+ eh instead of 3 oses ill use 2 
+ and try to get youtube to work on raspbian 
+ i got pretty far once 
+ not bad framerate not bad quality no hitches 
+  fullscreen  
+ no its osmc and libreelec 
+ osmc is best for media centres 
+ ill use raspbian so i can have it as personal os too like for 
+ yep 
+ projects or coding aswel as a youtube watching internet station 
+ yep 
+ my raspberry pi has 4 wheels and a 8400 mah 10v battery 
+ no jk 
+ i gotta kill you so i can put my bag 
+ i bagged carmel 
+ put the ak in a small box and lock it 
+ that is what my friend done before he betrayed me  my suspicions are rising 
+ i agree 
+ but 
+ 1879 
+ can i go in negotiation room 
+ carmels gonna talk to you 
+ alone 
+ how is he in here this is a members channel 
+ when we playing next 
+ maybe we should next wipe  
+ yep 
+ sounds good 
+ apparently my graphics card is crashing
+ also going to put a hard drive on my rpi 
+ between me and you  mind if i pull a prank on you guys next wipe 
+ what kind 
+ i have a friend who is a very well known rust youtuber 
+ who 
+ like a  friend  as in you know him 
+ or he s on your friendslist 
+ well  i ve been talking to him about helping him with his game 
+ ah 
+ ok so whats the pran 
+ prank  
+ https   www youtube com user loloutftw  
+ well 
+ ill do it to carmel  and new guy 
+ ok 
+ ill be in on it 
+ whats the idea 
+ https   www youtube com watch v imopyjua9xs 
+ basically the same thing that   heckler   done 
+ ok 
+ crashed im watching it now 
+ its hilarious 
+ nice 
+ kek 
+ thats funny 
+ ikr 
+ oh jesus 
+ xd 
+ you know how to micbait  
+ soundbait  
+ yep 
+ ok good 
+ i need to fix audio drivers 
+ im prob gonna get lolout to do it 
+ hes funnier 
+ ill act like i dont know whats up 
+ lol 
+ how can i know he wont take our shit or anything 
+ he won t 
+ how do i know 
+ hes a good guy 
+ i think 
+ thats why im making sure its ok with you 
+ ill keep loot in a secure place 
+ yep 
+ justy make lr codes different 
+ that turret one is hilarious 
+ ik 
+ tell him not to do anything malicious 
+ turret troll is fine 
+ well we probs wont have turret 
+ malicious is like blowing up things  killing players stealing their loot 
+ etc 
+ etc 
+ yep ik 
+ or making us blow up things 
+ like turrets 
+ yep 
+ i prob wont 
+ but if i do  im gonna get your perm 
+ ok 
+ i approve of it 
+ ill act like idk 
+ lol 
+ ill maybe drop him some loot weapons or something 
+    not kill him should i see him 
+ carmel is trash with weaponry so 
+ xd 
+ that video was hallarious 
+ whatch his planet rust series 
+ it is amazing 
+ thats not the right one 
+ funny anywzaays 
+  i made a discord for the group  the code is  rebnue3 
+ undeafen asap  
+ get in discord 
+ ok 
+ good stufff chest is 4713 
+ cant speak rn hold on 
+ i scared agile off 
+ im back 
+ in alerts tell people to get on tomorrow 
+ you finlly on 
+ get in discord plz 
+ i just got on at 10 am my tim 
+ yes 
+ my ear hurts like raw anus 
+ ok get in discord and i fix it 
+ 50 25 66 197 
+ im about damn ready to boot off agile 
+ idc about your nagging 
+ fine ill just go do it then  
+ do we do rust soon 
+ i made some raspberry pi scripts 
+ but i had to format my stuff to integrate a hdd into the os  my dad was helping me  because he thinks i cant do anything  and he accidently erased all my data i was keeping 
+ i am retarded 
+ no  just special 
+ lol 
+ i kept calling the lawn mower a microwave 
+ same m8 
+ im not pro choise im pro murder 
+ you know the story of soloman and the baby 
+ solomon  
+ like 
+ some women are arguing over who owns the baby 
+ and the king says   lets saw the baby in half   
+ get in discord 
+ public float rotationspeedx   0
+ i learned some tutorials and learned a bunch 
+ although i dont remember the functions exactly i do have an understanding 
+ ok 
+ gotta start somewhere 
+       some of the useful parameters are       
+ gameobject   the current gameobject your script is attached to 
+ transform   the transform of the gameobject 
+       some of the useful methods are       
+ gameobject getcomponent componenttype       gets a component of componenttype off the game object  returns null if the component don t exist 
+ gameobject find   name      finds a game object in the game with a name 
+ instantiate gameobject    makes a clone of the provided gameobject 
+ instantiate gameobject  transform  quaternion    makes  a clone of the provided gameobject with a different transform 
+ gameobject addcomponent componenttype      adds a component to a gameobject with a specified type  returns the newly added component 
+ void shoot   
+ ok 
+ perfect  good code 
+ nouice 
+ raycasthit hit
+ nice use of the   out   keyword   
+ i made the force based on damage cause i assumed if it does more damage its likely hitting with more force 
+ like a 50 cal vs a 9mm  the force is different 
+ smart 
+ for the effect 
+ i recommend instantiating a gameobject with a special particle effect at hit point 
+ first try out and figure out the   particle system   component 
+ i have that working and stuff i just have to make it better 
+ oh ok nice 
+ gameobject impactgo   instantiate  impacteffect  hit point  quaternion lookrotation  hit normal  
+ ah didnt see that   
+ now later  get an alternative for instantiate 
+ https   youtu be mrkq4zmm9kg demo 
+ the instantiate   method takes about 10 ms which is alot 
+ neat 
+ there s a target script too 
+ for health and stuff 
+ ok 
+ for the instantiation replacement i recommend object pooling 
+  what rust starts doing in the   asset warmup   phase of loading  
+ found that on a website 
+ lol 
+ essentially you instantiate a version  impactgo  and disable it at the start of your script then when you need it you set the position and rotation and enable it  when youre done with it disable it 
+ pretty simple 
+ ye 
+ steam now plz 
+ i dont think i really need to do that now but as soon as i finish the most of the scripts i will optimize them 
+ ok 
+ not now but later 
+ do you need any graphics or anything 
+ when you put up the wood in the furni  make sure to turn them on 
+  the ones in the main well fortified base  
+ f u r n i 
+ ok 
+ first 2 shoukld have  900 metal furni  and last 2 should have  900 sulfur furni 
+ tomorrow we should be able to  easily  to get what we lost and more 
+ maybe 
+ eh 
+ i guess 
+ lesson we should learn from that is we need to be less greedy  which equals risky   when we don t have the gear to back it up 
+ tbh  our best stuff there was the buckshot and hazmat 
+ both common  and fairly easy to get 
+ we had double the buckshot back at home 
+ have  
+ yeah 
+ and waterpipes are ez 
+ theyre easier than easy 
+ lol 
+ want some of my crafts  
+  from ksp  
+ sure 
+ ill put them on dropbox 
+ my internet is being faster than my hdd today    
+ https   www dropbox com s qpxxjs8zestlvjm b zip dl 0 
+ dont judge  i have some fucked up and wierd crafts 
+ cant be worse than mine 
+ lol 
+ i have a giant rovetr 
+ stuff for sph and vab 
+ i like sph more 
+ planes are much kooler 
+ plus the plane i made for the multiplayer  abcco  4  
+ im gonna 
+ turn them into gunships 
+ lol 
+ gl 
+   gl   
+ gl more like gg ez 
+ do the abcco 4 
+ it will be easiest 
+ its only mach 1 5 
+ whats ur fastest plane 
+ abcco  2 or 3 
+ try the cargo bomber 
+ 1 opens the bay 
+ 2  3  and 4 drops bomb groups 
+ 5 rocketds 
+ 6 cm 
+ 7 cm 
+ its kinda sloew 
+ eh 
+ im gonna make a mobile operations base 
+ mob 
+ ok 
+ as in it is self sufficient 
+ ok 
+ how do you like my planes  
+ seems legit 
+ ok  
+ they re cool 
+ ah 
+ does your infernal robotics work 
+ na 
+ sadly 
+ iteresting how the abcco 4 can fly fine with major wing damage 
+ almost even with an engine out 
+ well not as in  not working  but literally with it broken off the plane 
+ heaviest parts of plabne are engione and fuel 
+ anyways when you can  diont forget to stock the  f u r n i  
+ f o u n d  a  p i p e  a x e 
+ around same time i went to get wood 
+ yo and a salvaged pick 
+ depo d them 
+ not gonna risk 
+ got 3 085k wood 
+ ok donkey 
+ god you were up at 3 am 
+ damn boi 
+ im gonna go out and get 9k wood 
+ i already got us like 5k stone 
+ so we can do some minor base tweaks 
+ wood is so we can make dooreos 
+ and yes i am using the salv  axe  it makes no sense to leave it in the base 
+ whats the point of having it if we dont use 
+ we cant use for base defense 
+ point is  use it when mining 
+ dont go out with it for everythibng 
+ it would be great if there was a cross between java and c 
+ ha there is 
+ well c  is more like java   c    
+ cvrap 
+ i went to get 9k wood nd ended up with 12k 
+ that moment when youre so ocd about having exactly 12k you throw out the extra 0 581k 
+ irl ive been in caves before  uncharted  and they are scary as shit 
+ it gets like pitch black 
+ to the point you cant see your hand in front of your face 
+ if your light stops working you are absolutely fucked because i garantee you will not find the exit 
+ codes  
+ 1st floor outside doors  6809 
+ 1st floor  7805 
+ tool cubboard  1792 
+ 2nd floor entrance  1798 
+ loot room 1402 
+ furni room 1420 
+ 1st floor exit  6800 
+ sorry im so anal about codes  ever since i got code raided ive been super anal  once i made every door literally have its own code 
+ im gonna build a 2x2 dump base for when were resourcing so we dont have to go all the way back to our base and we can resource faster 
+ also we have a crapton of stone 
+ dump base  7905 
+ i made you a bag there 
+ its a 2x2 right outside cave 
+ its already proved itas worth 
+ i consider  proving its worth  to be able to store and move around what the base is worth 
+ for a dumpbase that is 
+ it also makes a nice fob 
+ they didnt remove the collectables 
+ there is so many on the map that they wont spawn 
+ ima make an auto turret 
+ no jk  
+ we cant afford  shotgun trap but we can afford autyo turret    
+ nvm 
+ ima make me a sar 
+ i deserve it 
+ ive got like 2k gunpowder 
+ at least 20k stone 
+ all today 
+ oh btw  now we are out of springs 
+ xd we have no components 
+ half of our stone is in dump base 
+ not worth the effort to move it 
+ looks like that poor guy we harrassed really did quit   
+ i talked to eclipse and it appears we are nuetral 
+ ima try an airdrop 
+ got it 
+ i had to fight a naked with a waterpipe 
+ but killed him got the pipe 
+ and got the ad 
+ best item was a hqm chestplate 
+ not amazing but good 
+ ima put it in dump base for now then gon and get moar crap 
+ rn  im snowballing 
+ snowballing is when you get lucky once and then get richer and richer 
+ foyund another cave base 
+ on my effort to ait out the heli 
+ i went into a cave 
+ theres a base her 
+ ima build a wall 
+ starter secondary base is 7812 
+ codes 
+ dump base  7905 
+ starter secondary base 7812 
+ tell me when you get on 
+ or youll gety raped by turret 
+   78 new messages since 9 20 am   
+ lol 
+ hotel guest codes are  7801 
+ each room goes  78  room number  1 
+ furnace room  6908 
+ i docked a spacecraft for the first time 
+ nice 
+ dont trade with ty man 
+ we were gonna do 500 lgf for a m92 
+ but we done the trade then he waited for me to leave 
+ snuck behind me and sprayed me down with an ak 
+ the worse part was  is that i found an airdrop on the way 
+ just a thompson nothing much 
+ we got our first raid threat 
+ ty man 
+ clan of 3 
+ he says 
+ i think it is bullshit but be on watch 
+ he has no clue we are cavemen 
+ i told him we lived in a 4x4 made of all doorways 
+  a raiders worst nightmare 
+   
+    
+ we got our first customer  for the shop  
+ it pays to be nice 
+ just got a free autoturret  128 5 56  semi auto pistol  pistol ammo  set of gear 
+ from adilos 
+ well now our shop has peacemaker turret 
+ got another customer 
+ ah fok 
+ ok   
+ well 
+ atleast we didnt die 
+ or get raided 
+ so good 
+ is it ok if i play metal gear solid for a bit  i have been waiting to play it for a while 
+ i wont play for a super long time ill go back on rust after a little 
+ yeah  can you come on soon and look what ive got done 
+ k illl go on rust 
+ ok 
+ codes 
+ furnace base  6908 
+ when you get back on make sure to auth yourself on the turret in tc room 
+ k 
+ and turn it on 
+ the tc had shit protection 
+ i figured i would fix that  also put armored doors on the looot room 
+ https   www youtube com watch v 6oklhc nh8a 
+ hilarious 
+ ill let you live just solvemy riddle   whats stupid and retarded    he says   me     kills him  
+     
+ im gonna farm 
+ get nodes  wood  etcd 
+ i got a  fuck  ton of stone 
+ 24 k 
+ 26 551k 
+ middle  bottom right is for more resources 
+ i let my friend  sci  jgames into the base 
+ the sci isn t a clan 
+ its a server rank or something 
+ quarry is 7912 
+ ok 
+ n i c e 
+ discord 
+ remember ryans  
+ he came around the shop as a naked  with pants tho  
+ he tried to enter quarry base 
+ lets just say 
+ he ded 
+ ok lol 
+ hop on asap 
+ i got an m249 
+ and ive been out roaming with it xd 
+ oh 
+ join https   discord gg 3zsjbv 
+  lmp  null  aka abc bob  8 hours ago
+ hello 
+ how2make samba faster 
+ hey 
+ about agile carmel 
+ he s back and he s truely sorry for what he s done  and he s had some bad times in life so i think 1 more chanse isnt totally absurd 
+ as a co leader you can tell me if you disagree 
+ idk  but its sketchy im my old 12 man clan will done the same shit  we can try him but he might betray us 
+ its even worse when the guy who betrays you  is an irl clan 
+ but whatever 
+ to make samba faster get 10gb s internet and use ftp 
+ so agile should stay out  
+ i ll see about ftp  i think windows wont shit itself if it sees that 
+ i overestimated how big my virtualbox is 
+ im trying to export it but i use a fuckload of space 
+ filesystem      size  used avail use  mounted on
+ i could swear i had like 100g free 
+ brutal 
+ removed the  ovf 
+ filesystem      size  used avail use  mounted on
+ there  im now using ftp 
+    
+ ironically it takes a little bit longer to load 
+ vsftpd 
+ on raspberry pi 
+ ok 
+ oh damn  youre using an rpi as a nas  ooh thats slow 
+ definatey use ftp 
+ samba is crap on it 
+ windows won t work with it very well though 
+ thsats why filezilla was invented 
+ ok 
+ agile didnt betray the clan at all  he more just pissed me off and left 
+ ok 
+ im fine with it 
+ tbh i think he should be a recruit and have limited access 
+  where all good crap is in a trusted only box  
+ i might just remove the rank system altogether but idk 
+ thats better 
+ yeah 
+ its just a race for power if so 
+ extra conflict 
+ the only reason for member should be for discord access  not really anything else 
+ he wheel s collision detection is performed by casting a ray from center downwards through the local y axis  
+ but im not gonna say anything until i can see about clan merging with ty and ill try to see how he sets up his rules and ill see how it works for me too 
+ you do not turn or roll wheelcollider objects to control the car   the objects that have the wheelcollider attached should always be fixed relative to the car itself  however  you might want to turn and roll the graphical wheel representations  the best way to do this is to setup separate objects for wheel colliders and visible wheels  
+ ok dokey 
+ wc motortorque    input getaxis   vertical   
+ earlier i got this wot from nomad  
+ agilenomad  sorry  i am sorry for what i may have brought upon you  but i am really sorry  i will work on things i may lack of  i will do more than what i have done in the past  i understand if you don t ecxept my apolagie  like i said i am sorry  
+ dont tell him i sent this to you he prob get pissed xd 
+ its fine  he told me 
+ started a call  
+ ima go wach youtube vids 
+ helo 
+ hi 
+ wanna play arma or something  
+ at home don t have taking pc 
+ oh 
+  gam8ng  
+ but 
+ i do have my laptop with a intel celeron and 0 5 gb of ram 
+ wtf 
+ lol 
+ started a call  
+ thats like 
+ new mexico 
+ in the us 
+ im gonna play csgo 
+ ok 
+ my dude 
+ whats your website link 
+ i need your spambot 
+ started a call  
+ started a call  
+ ok then  
+ rip 
+ started a call  
+ microphone machine broken 
+ oh wait 
+ i said a 
+ can you hearme 
+ https   www technicpack net download 
+ https   www technicpack net modpack the 1710 pack 453902 
+ http   imgur com f4x41yg 
+ http   download oracle com otn pub java jdk 8u144 b01 090f390dda5b47b9b721c7dfaa008135 jdk 8u144 windows x64 exe 
+ started a call  
+ wait 
+ ok 
+ install java 
+ i did 
+ im on good pc 
+ i got steam and good java 
+ started a call  
+ hello 
+ started a call  
+ started a call  
+ hjkkkkkkkkkkkkkkkkkkkkn 
+ started a call  
+ leeeyecard gmail com 
+ abc123mewot gmail net 
+   com 
+ 5587 
+ you there 
+ started a call  
+ im gonna be gone for a bit 
+ just wait for me 
+ how long is a bit  
+ up to an hour i guess sry 
+ ok 
+ so 
+ when i come back 
+ on your laptop roaver  im on speaker right  
+ and whats the rules on swearing 
+ nothing crazy fucked up 
+ okay 
+    
+ re installing windows and cleaning up a room 
+ thats  almost literally full of shit  
+ https   www youtube com watch v hvoagwsow y 
+ lol 
+ started a call  
+ yes 
+ i dont know 
+ join back 
+ am was i on speaker  
+ hes gonna read a creepypasta about raping children 
+ yes the whole time 
+ o o h h h s i c c c 
+ you still are 
+ started a call  
+ omfg ban every reddit thread ever because everything is hate speech and the world is gonna end if somebody gets offended omg omg omg 
+   i think these are bad so im going to write down how bad they are in a book  but to make myself look cool im not gonna ask the subreddits to be remove and just literally ask people to shame and degrade them   
+ moved over to aidsless pc 
+ yes 
+ rust update summary 
+ basic stuff is unlocked dumbass 
+ woops 
+ i knew that 
+ but yeah i already read or 
+  it 
+ rip 
+ i have an app that shows me the dec blog whenever they post a new one 
+ i got a bot for discord 
+ and i subscribed to the blog 
+ on gmail 
+ and gives me a notification 
+ started a call  
+ started a call  
+ started a call  
+ i got you a present 
+ started a call  
+ whyd you go 
+ i had to sleep 
+ wots the code again 
+ started a call  
+ started a call  
+ somone is at our base 
+ they foundatrion wiped us 
+ im jk 
+ started a call  
+ i gtg 
+ i killed u cause u were in way of box 
+ whatever code isnt 3639 is either 5566 or the random numbers you assigned 
+ idk 
+ god damn it  agile blew up again 
+ 3rd time 
+ agile and me are done 
+ you say that weekly and you team up again  there s a pattern you re not seeing 
+ no  i see it 
+ ok 
+ that s the first step 
+ the first time i just kinda hoped he wouldn t do it again  but the 2nd and 3rd time made it clear that it just would 
+ repeat itself 
+ ye 
+ people never change 
+ got a 3u server with 1tb of ram and 4 cpu s at 10 cores each
+ no jk  ebay auctions are great 
+ lmao  what 
+ no way 
+ prove that shit 
+ 1 tb of ram 
+ yep 
+ im bullshitting you 
+ lao 
+ but i met a guy who did 
+ kek 
+ and he let me touch the ram 
+ 0h yeah i got a base on rust 
+ if you wanna get me raided i mean play rust 
+ each ram module had 16 ram sticks in it 
+ nah im at home  my computer is at my dorm   
+ oh 
+ rip 
+ hey 
+ what are thse 
+ 37067   07647 x 42516   55111 
+ what 
+ are those coordinates or some shit 
+ it s part of a puzzle 
+ the   door   is a blowfish encryption shit and the key is that 
+ where did you see them 
+ in the puzzle  it said that was the key and the encryption was the door 
+  it s not the direct key  
+ oh yeah and above the numbers it said worldatlas 
+ what puzzle 
+ er the password for it 
+ guess  
+ iuehjvrk uq1pisd8rpkdn00hcukmsnqyd0riekn1nyv04vqniakwyxklsn7yapl0
+ formatting is aids 
+ it s blowfish encryption 
+ if its the key them dearth blowfish decrytor and plug it and the key in 
+ what 
+ lemme get laptop 
+ it isn t the actual key  the key im pretty sure is coordinates or something 
+ i ve tried  and it isnt the password 
+ key  
+ started a call  
+ 37067   07647 x 42516   55111 
+ worldatlas 
+  x   4      g                l  9              l   j iguo e  0ab  b      m        
+ 448bit 
+ blowfish 448bit 
+ worldatlas
+ loimaa 
+ https   www google com maps place 32200 loimaa  finland  60 8515248 23 0166915 13 36z data  4m5 3m4 1s0x468ea76961d02b3b 0x743576d2123561f6 8m2 3d60 8535334 4d23 0429229 
+ ffffffffec9eca18 
+ 16 bit integer  signed  
+   
+ 29420 x  12595 
+ the first step s complete 
+ blowfish 448bit 
+ http   www encrypt easy com encrypt text 
+ encrypt and secure your messages online with blowfish  which is one of the most secured encryption algorithm 
+  dwn6ao0d   
+ iuehjvrk  
+ https   cdn discordapp com attachments 344209954657402891 364926140642754560 collatz png 
+ https   en wikipedia org wiki collatz conjecture 
+ less than 10 is 9  which has 19 steps 
+  sudo apt get intall libboosgt all bullshit  
+ yes hello 
+ you died 
+ you literally died 
+ b0i 
+ azine 
+  any word  azine 
+ https   en m wikipedia org wiki azine 
+ ugerg 
+ burger 
+ i cant hear you 
+ hey 
+ uuuh 
+ you died again 
+ you deafend yourself 
+ lil shit 
+ cant hear you 
+ it says your output is fucced up 
+ i got ur test but you cant hear me 
+  cant hear you again if your talking  
+ ima go 
+ ok 
+ good nite 
+ sleep tite 
+ dont let mario bite off your balls in the nite 
+ don t you dare 
+ i know how to spell tight 
+ dont i date what 
+ you died again 
+ nvm 
+ https   www youtube com watch v 1liggy80jwi ab channel jimb c3 a4ckman 
+ https   media licdn com mpr mpr shrinknp 200 200 aaeaaqaaaaaaaakmaaaajgizmdkyntzhlwjmmzctndi1mc1imzizlwflymeyntiwm2fkna jpg 
+ you dont know what you know 
+ that moment when youre copying over all of your most important files 
+ to a flashdrive 
+ so when you switch to linux you will still have them  
+ started a call  
+ diccsnort 
+ make a raid flashdrive setu 
+ started a call  
+ started a call  
+ i busy 
+ halloweener 
+ started a call  
+ terrifying children s book 
+ https   www youtube com watch v pem zcgcssk feature youtu be ab channel ameliacenotti 
+ we gotta get on a server 
+ todays wipe 
+ started a call  
+ i got 29 kills and we still lost   
+ started a call  
+ call when your back 
+ cause 
+ u gay 
+ started a call  
+ started a call  
+ 7805 
+ 7809 
+ your pc is muted 
+ check ur audio 
+ ill be back soon 
+ upset 
+ i m in bed 
+ thats 
+ ill get back on tomorrow 
+ fuck 
+ did we get raided  if not try to a aquire sheet metal doors 
+ yes 
+ what server were we on 
+ oh ok 
+ no wait 
+ thats not what i ment 
+ bloodborne 
+ yes 
+ 11   3 
+ ill checc 
+ i think it was 
+ we didnt get raided 
+ gg 
+ ok 
+ good 
+ you stole my nail gun 
+ reeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee 
+ 780x  x being  
+ 5 
+ 9 
+ 6 
+ they don t make a 780y 
+  7806 
+ n o s h i t 
+ 7806 
+ wat 
+ they only make a 7805 7809 7812 7815 
+ ok 
+ 7806 to 7812 
+ and a 7905 7909 7912 and 7915 
+ know your linear voltage regulators 
+ i see 
+ what 
+ wait 
+ it our codes are based off of something 
+ such as voltage regulators 
+ then we are vulnerable 
+ we are always vulnerable 
+ so is ur mother 
+ bye 
+ im gonna make random codes for every door and make screenshots of each door and its code next to it 
+ and goodbye 
+ front door exit   6481 
+ front door airlock  4254 
+ tc  workbench  and furnace s   9701 
+ back door airlock 1  6313 
+ back door exit  4587 
+ become awake 
+ nice 
+ started a call  
+ icant hear you 
+ i can hear u 
+ https   youtu be cvj 3frnoca t 1m7s 
+ 6313 
+ https   www youtube com watch v 6pjnhm2ihwg 
+ https   www youtube com watch v tk6jmsrqiqo t 592s 
+ started a call  
+ i made a collatz function script 
+ btw i have hardware raid 
+ so ha 
+ conjecture  
+ highest number i got  999999999999999898 
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ u gay 
+ my script got from 999999999999999898 to 1 in 409 steps 
+ with the collatz conjection 
+ if the number is even  divide it by two 
+  that one  
+ hey mane fuck you 
+ fuck you to 
+ imagine if you saw a clown handing out pills to make your dick turn into a harpoon gun that regenerates every 5 seconds but there s only 1 pill 
+ would 
+ you 
+ tak 
+ take 
+ ofc 
+ i would 
+ heck yes 
+ aids to the max 
+ started a call  
+ shit 
+ thats the wrong one 
+ wtf 
+ shit 
+ lol 
+ post the freedom dollar again 
+ ok 
+ i was gonna post something else but i cant find it 
+ what the desu did you just fucking desu about suiseiseki  you little desu  suiseiseki will have you know that suiseiseki graduated top of suiseiseki s desu in the navy desus  and suiseiseki has been involved in numerous secret desus on al desu  and suiseiseki has over 300 confirmed desus  suiseiseki is trained in desu warfare and suiseiseki is the top desu in the entire us armed desu  you are nothing to suiseiseki but just another desu  suiseiseki will desu you the fuck out with desu the likes of which has never been seen before on this desu  mark suiseiseki s fucking desu  you think you can get away with saying that desu to suiseiseki over the desu  think again  desu  as we speak suiseiseki is contacting her secret network of desu across the usa and your desu is being traced right now so you better prepare for the spam  maggot  the spam that wipes out the pathetic little thing you call your desu  you re fucking desu  kid  suiseiseki can be desu  desu  and suiseiseki can desu you in over desu ways  and that s just suiseiseki s bare desu  not only is suiseiseki extensively trained in unarmed desu  but isuiseiseki has access to the entire arsenal of the united states desu and suiseiseki will use it to its full extent to wipe your miserable desu off the face of the desu  you little desu  if only you could have known what unholy desu your little  desu  comment was about to bring down upon you  maybe you would have held your fucking desu  but you desu  you desu  and now you re desu  you goddamn desu  suiseiseki will shit desu all over you and you will drown in it  you re fucking desu  kiddo  
+ shit wrong person 
+ https   www youtube com watch v mcdgogc5lcc 
+ do you have a fallout 1 disk 
+ i want one 
+ i have a fallout 1 floppy disk 
+ but no cd 
+ if you have a reader for the floppy disk  and what it runs on  could you compile me an img or iso and upload it here 
+ because i want to play fallout 
+ just google it man  there is no anti piracy bullshit  i recommend dosbox for a dos emulator 
+ i got dosbox 
+ im not in the mood for torrenting but k 
+ no need to torrent 
+ its under 100mb so it shouldn t take barely any time to to ent 
+ ok 
+ i don t have a reader at my dorm but i do have a dos machine it will run on 
+  at home  
+ what would fallout run on  
+ windows 95  xp  
+ and cant i just use wine  it can emulate old windows shit  cant it  
+ dos 
+ just dos  
+ so i mount the img in dos and execute it  
+ just dos 
+ and expect it to work  
+ alrighty 
+ basically yes 
+ done don t have dos support  you need a real dos emulator 
+  wine 
+ k 
+ ms dos or just dos 
+ sorry if im 
+ being annoying 
+ ive never used dos 
+ or anything related 
+ no big deal 
+ ms dos and dos are the same thing 
+ k 
+ thanks 
+ well unless somebody other than microsoft makes thief own dos  which won t happen since linux made dos obsolete for a cli based operating system 
+ http   www bestoldgames net fallout 
+ im on a debian 9 os with gnome desktop environment  and randomly  especially when i use steam or chromium  it freezes   and system stops responding 
+ and also audio loops 
+ know anything about that 
+ theres a download link
+ ok 
+ what s your hardware  
+ nvidia 970 gpu  intel i7 cpu  16g ram 
+ do you have nvidia drivers  
+ if not  get them 
+ that could be the cause 
+ otherwise  try another desktop environment 
+ could just be your desktop environment being buggy 
+ i do 
+ and yeah 
+ ill first try reinstalling nvidia drivers  then gnome  then if all else fails ill try kde or even xfce 
+ probs xfce cause im used to that the most 
+ yep  my chromebook can t run anything but lxde because of others being buggy on my hardware 
+ but it was wired as fuck hardware 
+  has 
+ oh 
+ for the moment of truth 
+ aaand 
+ testing 
+ no crashes so far    
+ yay 
+ try ubuntu  it runs gr8 on that hardware  i know from expierience  
+ no it died 
+ but ye illprobs try ubumtu 
+ that link for fallout is the demo shareware version 
+ but i found a working one 
+ started a call  
+ started a call  
+ am i too loud 
+ can you please visit blackpeoplemeat online and tell me if its online  
+ i swear its not what you think 
+ it is 
+ its online 
+ i need to verify 
+ lorem ipsum dolor sit amet
+ ok 
+ thats all it says 
+ our services
+ yes 
+ request a free quote
+ fuck 
+ hey 
+ want a command 
+ that will totally dont fuck ur system 
+ on linux 
+ its 
+ chmod  user  user  r   
+ that works 
+ every time 
+ it cleans 
+ everything 
+ haha that actually wouldn t duck up your system 
+ file system wise  
+ no  i guess 
+ but the system wont like that as far as i know 
+ you could run it as sudo  but that wouldn t do much either 
+ how come 
+ have you done it 
+ because if you have superuser then you could just read and write to your files as superuser instead 
+ what about debian system itself 
+ do the command  as sudo  and reboot 
+ all that does is change all the permissions for the files to  user 
+ spexifically only read write permissions 
+ the ownership 
+ the permissions are the same 
+ yeah  it won t boot because it can t modify the log files 
+ or start any services etc 
+   
+ but entering rescue mode as superuser would fix 
+ shit 
+ well 
+ oh wait 
+ nvm 
+ you then can just remove your user and rebuild the desktop enviroment 
+ yeah but you changed everything to  user 
+ it would just be a big pain in the ass 
+ chloe just changes permissions  it can t do real damage because superuser overrides everything  well except for negative permissions  
+ oh 
+ i have an idea in rust 
+ we could just blockade a base 
+ roofcamp it to death 
+ but negative permissions is only a bios thing 
+ negative permisisons  
+ yes  superuser is 0  normal users are 1 256 except for windows which is 2 256 1 being administrator 
+  1 is bios   2 is rom   3 is smi 
+ there is no way that you can a quite anything under 0 using your os  you have to modify your motherboard or bios 
+ oh 
+ what files would have a  1 or  2 or  3 permission on debian 
+ to get smi  you would have to wire directly to your cpu 
+ goodnes 
+ no files 
+ on your is at least 
+ files in the bios do have negative permissions 
+ ooooh 
+ files in motherboard rom  read only memory typ  about 128 bytes  have  2 
+ and  3 is power switch  deciding to turn on off the power supply 
+ didnt know those had permissions  i just thought you just couldnt access it 
+ without hard wiring some shit 
+ other miscallaneous low level stuff have  3 
+ permissions are not a file determined thing  they are determined by the cpu 
+ oh 
+ so is it like 
+  3 and  2 permissions should never be accessible 
+ the cpu sees the permission and says   thats negtaive so i wont access  or 
+ how does it work 
+ it has a register that holds the current permission level 
+ then when necessary it can increment  only a privledged process can do that  or decrement 
+ oj 
+ oh 
+ so how could i 
+ for say 
+ lower the permission of a  3 file to a  1 one 
+ how could  i  
+ you can t because things at  2and  3 are inaccessible by  1 
+ and everything above  1 
+ ah 
+ oh do you have a premium mathaway account 
+ well again you can if you modify the motherboard 
+ no hathaway is ahit 
+ what do i use 
+ to solve like 
+  mathaway  shit 
+ 3 x4 5    1 27  2x 10 
+ jep 
+ and have it retun steps 
+ jep  
+ java expression parser 
+ does it return steps 
+ in a reasonable format 
+ yes 
+ oh yeah  it is developer frindly in the way gentoo is developer friendly 
+ how can i show an exponent being an equation in wolfram 
+ such as 
+ 3 4x 5 
+ where the entire 4x 5 is exponent 
+ come that s ezy 
+ how 
+ yes jep can  but i m not programming it for you 
+ im not using jep 
+ logarithm 
+ i need it to return a user friendly step by step output 
+ and i dont need to download program anything 
+ oh ok  so you re not looking for a gentoo developer friendly method 
+ in spesific im lazy and i want to do this dumb math question 
+ im not 
+   
+ what is the expression equal to or do you just want me to give you a formula for x 
+ simplyfing it  
+ and listing steps 
+ it is simplified 
+ to be honest  im just behind in this dumb assignment with that one question and im gonna laze it out but  if there s no easy way ill just do it myself 
+ 3 x4 5    1 27  2x 10  
+ my bad i mean solve for x 
+ https   i gyazo com 174f87c30218c2ac49276debbe6159ab png 
+ in doing it rn 
+ oh real shit 
+ ok 
+ x  2 5 
+ that s a fucking stupid ass number 
+ its correct  thanks 
+ i look lika professional retard 
+ ah  log function 
+ i conquered it using two laws  a x y is same as loga y  x and log x y  is ylog x  
+ oh 
+ there 
+ thanks 
+ no problemo 
+ oh do you have any tips for memorizing a bunch of information at once  like some notes for a test 
+ mainly formulas and   this is that and that is this   
+ no  i just learn the math behind it and how it works 
+ good enough 
+ hey 
+ you 
+ i 
+ asked you 
+ a question 
+ one time 
+ eat shit 
+ imma fuck you 
+ do it 
+   this child knows bash  c  somewhat    
+ my friend is nice 
+ i know both 
+ im sure you do 
+ ey 
+ i want a floppy drive 
+ and a cd rom 
+ and a tape recorder 
+ and 
+ i have one 
+ uh 
+ slaves 
+ i want slaves 
+ same 
+ we should play rust 
+ or something 
+ before i die 
+ i have finals i gtg to bed 
+ ah 
+ same 
+ but 
+ not bed 
+ ay where can someone get some dc motors 
+ for some small projects n shit 
+ https   www amazon com s ref nb sb noss 1 url search alias 3daps field keywords toy motors 
+ https   www amazon com bemonoc motor dc remote control dp b01n2tq4lz ref sr 1 6 ie utf8 qid 1513017080 sr 8 6 keywords toy motors 
+ https   www amazon com dikavs package accessories various bushings dp b06xmxp5f8 ref sr 1 7 ie utf8 qid 1513017080 sr 8 7 keywords toy motors 
+ https   www amazon com flormoon electric 0 5 3v 15000rpm magnetic dp b01i6mdxv6 ref sr 1 1 ie utf8 qid 1513017080 sr 8 1 keywords toy motors 
+ thanks 
+ im going to nuke this semester test like america nuked japan 
+ nvm got a 
+ eat ass skate fast 
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ i go now 
+ i be back later 
+ niglet 
+ ok 
+ i found a massive oil reserver 
+ it had a yield of  6000  
+ normal oil reserves are about 400    1500  
+ started a call  
+ started a call  
+ https   www youtube com watch v n2izbbufxwg 
+ started a call  
+ i have custom watercooling block for my flashdrive 
+ i literally dump it in water 
+ distilled 
+ and reverse osmosis so it is basically non conductive 
+    
+ but what does it do  
+ that 
+ that  
+ lemme see 
+ converting steam version format  
+ steam version format of what  
+ to old version format of what  
+ i dont know 
+ lemme put some effort 
+ thist ime 
+ heres a hint 
+     
+ 10 10 
+ heres an example input file  
+    
+ oh 
+ that 
+ oh 
+ yes 
+ lemme see 
+ okay 
+ what s that rust sandbox building shit  
+ damnit 
+ i know what it is 
+ f o r t i f y  
+ yes 
+ fortify data converter 
+ old   new
+  data   world 
+ it converts a base made in old version of fortif7y to the steam version 
+ as the steam version contains 3d coords and the old version had 4d coords 
+ yes 
+ good job 
+ winner winner 
+ chicken nigger 
+    
+ try that one 
+ it has to do with rust 
+ probably 
+ what algorith is that data structure for  
+ no its quite common in game development 
+ oh 
+ idk i dont program in java 
+ unity recently implement a nodegrid which uses this algorithm 
+  which shouldve been done sooner  
+ yes 
+ it is also used in ai to find paths to things 
+ ok whatever 
+ i am not as good as you 
+ the answer is in the first line of code 
+ my bad 
+ it literally said what it is for 
+ a star  
+ yes a  pathfinding algorithm 
+ https   www youtube com watch v n2izbbufxwg 
+ https   www youtube com watch v 19h1g22hby8 
+ thats an examplr 
+ yes 
+ https   www youtube com watch v ysn5wnu88ne 
+ hey  
+ you know earth 
+ it s like an orgamism 
+ cause 
+ it s got humans like cells  internet for 
+ thingsa 
+ and radiowaves 
+ like 
+ how animals make noise 
+ isnt that weird 
+ we re totally small and useless 
+ i bet you 10  you cant rename a file to  con  in windows 
+ con  
+ ok 
+ just con  
+ yes 
+ or rename a folder 
+ name reserved by windows 
+ the fucc 
+ kek 
+ hol up 
+ i want that 10 dollars 
+ try nul 
+ same result 
+ who knew 
+ dont you love windows  
+ no 
+ not even a little 
+ and its reserved filenames  
+ lmao 
+ try aux 
+ okay 
+ thats fucking gay 
+ same rsult 
+   aux   thats something that can be used 
+ properly 
+ linux has a directory of files like those 
+ its called  dev 
+ but 
+ oh yeah 
+ shit 
+ wouldnt those not be files or 
+ what would those be 
+ they work completely differently from windows 
+ there should be no files in  dev 
+ ye 
+ but what if 
+ i did that anyways 
+ everything in  dev should be a block device 
+   block device   
+ ok 
+ yes 
+ makes sense 
+ you can make a file in  dev  but it would be stupid 
+ unless 
+ what if i 
+ do anyways 
+ you are pro like me and know how to write a linux device driver 
+ im not 
+ then you can create a block device 
+ and it will automatically be put in  dev 
+ oh 
+ ok 
+ neat 
+ http   www tldp org ldp lkmpg 2 6 html lkmpg html aen121 
+ go to it 
+ otherwise you will die  never knowing what it goes to 
+ i did 
+ i trust tldp org 
+ nah i cant read 
+ how come  you cant set the year in some phones to 2039  
+ oh 
+ unix time 
+ ez 
+ im gonna take a shit on some shit 
+ do that 
+ north korea made a linux version os called red star os 
+ ik  i have it on a vm 
+ what is thicc  
+ chicken ass 
+ dont over meme 
+ eat my dicc 
+ started a call  
+ started a call  
+ slim jim or slender james 
+ slim jim ofc 
+   so chiser  just how much was youre butthole puckering when you came over that hill  knowing you donked that shot into the t30  would you have been able to shit a watermelon without it touching the sides    
+ yes 
+ it was very 
+ puck 
+ wat 
+ 10 10 
+ https   www youtube com watch v xpypvsx4fdo 
+ setting the   memorable date   security mesure for your bank to septenber 11th  two thousand one 
+ is it legal to buy a game and hold onto it until it increaces in value  and sell it for that new value 
+ why am i in that discord 
+ idk 
+ but that isnt that bad 
+ compared to other things 
+    
+ https   i imgur com q9q4rt8 gifv 
+ watch that 
+ weird 
+ hot 
+ thats a really bad face hole filler also 
+ fuckin 
+ huge ass eye 
+ https   cdn discordapp com attachments 372733617316560896 398597021340270592 225rmts jpg 
+ thats probably the single worst meme ive ever seen quality wise 
+ https   cdn discordapp com attachments 372733617316560896 398612321515208705 217a1l jpg 
+ fuck niggers i stubbed ma toe 
+ you shitttly 
+ s h i t t l y 
+ https   upload wikimedia org wikipedia commons b b4 comparison satellite navigation orbits svg 
+ woah 
+ thats 
+ cool ass shit 
+ https   memegenerator net img instances 500x 67081051 wibbily wobbly wimely shittly code jpg 
+ you need to get you a niglet whose main focus is you and his hustle 
+ i do 
+ dude 1 did you eat those burgers 
+ have a niglet who focuses on me 
+ and his hustle 
+ started a call  
+ started a call  
+ https   www youtube com watch v teg7ragnfhy 
+ brb 
+ ccccccccccccccccccc 
+  sudo raspi config  
+ http   lmgtfy com  q overclock raspberry pi 3 
+   ohhhhhh my god i think i got it  i do not have access to the ring base  yet most of it is tied to me  please add me to the security systems there   
+ started a call  
+ started a call  
+ i pubg 
+ please 
+ started a call  
+ answer niglet 
+ started a call  
+ https   cdn discordapp com attachments 350158983316766730 398200292166074368 yui6pp8 png 
+ im too lazy to read that 
+ may the multimeme be with you 
+ http   lmgtfy com  s a q wtf am i doing withh my life 
+ nigg 
+  i didnt make that because i dont watch enough rick and morty to be smart enough  
+ lol 
+ my bad 
+ https   discord gg ppauyrr 
+ u dumb 
+ https   discord gg tctgfkb 
+ that one 
+ why did you expire it 
+ i sent it to like     peoples 
+ no make invites 
+ lmao 
+ u dumb 
+ say 
+   no  this one   
+ https   discord gg tctgfkb 
+ im gonna niggle you 
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ hello 
+ i cant hear u 
+ gfae 
+ discontinue 
+ stfu im taking a math test 
+ ill factor your polynominals 
+ plz do daddy skaggs 
+ shut the fuck up before i forget to unblock you 
+ i m not kidding  it s that easy  
+ are you done with youre fucktest 
+ yes 
+ i aced it 
+ started a call  
+ started a call  
+ started a call  
+ go in servcer 
+ join my free giftcard giveaway 
+ excuse me but im am offended 
+ what 
+ i just saw the egg 
+ that you are bullying me in discord 
+ https   pre00 deviantart net d880 th pre f 2015 155 3 0 the devil goat taking a shit  by crydead d8vyuyb jpg 
+ i demand you unmute me 
+ i have more hours in factorio than you 
+ or ill have to egg you 
+ ok 
+ i have more hourws in rust than you nugget 
+ i dont have superuser  sudo  st  dev pts my shel
+ yes 
+ omfg make me superuser 
+ i cant talk in general 
+ i need superuser to talk in general 
+ https   www youtube com watch v zgu hd4n9b0 
+ that dont solve the problem 
+ make me superuser 
+ yes it does 
+ make me superuser 
+  usermod   add group root  me 
+ what if someone were to post something spicy in general  and youre not there to delete it  
+ thats why i need to be superuser 
+ make me superuser 
+  senvr do it 
+ i have other superusers 
+ https   www youtube com watch v zxsqaxx ao0 
+ i know me 
+ mkae me superuser 
+ https   www youtube com watch v zxsqaxx ao0 
+ https   www youtube com watch v zxsqaxx ao0 
+ https   www youtube com watch v zxsqaxx ao0 
+ i triple dog dare you to make me superuser 
+ stop giving yourself every role 
+ ok 
+ i ve asked atleast 4 times 
+ deal 
+ there 
+ is there a maximum amount of roles 
+ i think 3 is good number 
+ thats not the point 
+ or maybe 2 
+ roles like fortnite  pubg  csgo  etc can be added infinetly 
+ there can only be one functional role like general major etc 
+ ok 
+ partial deal 
+ i get 2 functional roles  
+    pretty please    
+ 1 
+ you can have the other fun roles like 
+ ku klux klan 
+ how about 1 functional role   1 bot role 
+ how about that 
+ bot roles are off limit  except for unstable 
+ i have a webhook  which makes me a bot 
+ ok so 1 functional role  0 5 bot roles  and every other role  
+ i assume youre lack of response means deal  
+ huh 
+ what 
+ no 
+ why do you need every role 
+ why not  
+ it breaks the organization 
+ how  
+ it breaks the sense that it matters 
+    1 functional role     0 5 bot roles  and every other role  
+ what if i make you a role or two 
+ oh i get it 
+ now youre being racist 
+ two custom roles  functional role and superuser 
+ i can make my own roles 
+ im superuser 
+ yes 
+ make like 4 
+ 4 maybe 
+ no  that ruins the point 
+ ok 
+ ok  so two custom roles  functional role and superuser 
+ yes 
+ deal 
+  so i get one bot role   
+ i assume the lack of response means yes 
+ ok so two custom roles  functional role  and superuser  and one bot role  
+ superdeal 
+  senvr deal  
+ hjhu 
+ no 
+ no bot roles 
+ fuck 
+ 2 custom  1 f unctional  1 superuser 
+ deal  9 
+ ok 
+ wait 
+ hehe 
+ i found a loophole 
+ i found a loophole 
+ i found a loophole 
+ i found a loophole 
+ v 
+ i found a loophole 
+ i found a loophole 
+ i found a loophole 
+ i found a loophole 
+ i found a loophole 
+ i found a loophole 
+ i found a loophole 
+ i found a loophole 
+ i found a loophole 
+ i found a loophole 
+ i found a loophole 
+ i found a loophole 
+ i found a loophole 
+ i found a loophole 
+ i found a loophole 
+ you sain 2 custom roles  which means whatever i want  so two bot roles 
+ no you make one 
+ and you didnt add a   no bot roles   clause 
+ thats a   custom role   
+ 2 custom  1 f unctional  1 superuser 
+ and i spesified bots are off limits 
+ so if i make my own bot role  
+ custom roles don t have permissions 
+ at best they are separated  like lone star lawmen rank  
+ and above the other ones 
+ but i make my own 
+ so i can give whatever perms i want 
+ you not specify 
+ a custom role  a role that can be separate from the other roles and has a different color but thats about it  no permissions 
+ the  functional  roles give permissions 
+ for an example  look at lone star lawman 
+ rank 
+ fuck 
+ yes 
+ yes becsause i discovered another loophole 
+ or yes because you think you won 
+ if my primary language is german than i get bot ranks 
+ und ist spreche juzt duestch 
+ nein 
+ ja 
+ your primary language is java 
+ wie bitter  
+ du bist schlecht darin 
+ dafuq 
+ just 
+ happened 
+ i 
+ smell 
+ smoke 
+ fucker 
+ i just blew up a  perfectly good raspberry pi 
+ gg 
+ dont connect 13v to 5v pin
+ uh 
+ yeah 
+ generally its a bad idea to 
+ it still boots 
+ but i killed the usb controller xd 
+ gg 
+ so no ethernet or usb 
+ thats actually really long idk why 
+ https   www youtube com watch v 5l07t8yd a4 
+ i   k n o w    r i g h t 
+ niggers are fat and globglabs are traps 
+ and traps are gay 
+ excuse me 
+ its 
+ glob go lab ga lab 
+ excuse fucking me but i dont think you know assembly do you 
+ and i dont think you can write linux kernel modules can you 
+ no but can you globgolabgalab 
+ yes  3 times a microsecond 
+ faster than a choocher can combobulate 
+ i m taking a shit right now 
+ with a gun  
+ ill send pics when done 
+ nice eh  
+ oh you have gigabit ethernet right 
+ neato 
+ good job  windows nub 
+ ye tell me when i can play pubg on linux 
+ then i ll switch now 
+ w i n e 
+ yeah that works 
+ lmao 
+ google it 
+   running it with wine is impossible mainly due to the kernel level anticheat they use called battleye  sadly you need to dualboot or run it in a vm    
+ then use a vm 
+ lag 
+ and might as well just use windows 
+ windows nub 
+ you re taking the lead of the server while i m gone 
+ don t fuck up 
+ ok 
+ nigger promote me back or else 
+ i thought you liked that 
+ you never said exactly what you ddnt like 
+ fuckign re privledge me or ill do worse 
+ imma go to bed or something 
+ no 
+ re privlege me 
+   
+ set my uuid to 0 
+ do it 
+ no u 
+ or more ass picturwes 
+ listen 
+ you have to beat me in a game that i choose 
+ okay 
+ what game 
+ https   i pinimg com originals e7 5e a0 e75ea0ad3019f5d0626b896e24da6518 jpg 
+ i hate your guts 
+ anyways 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+ also 
+ pro mote me or more fat ass pics 
+ you have to translate something within 5 seconds 
+ okay 
+ you have 1 try 
+ ok 
+ get ready 
+   hallo  wie gehts  mein nigger    
+ 1 
+ 2 
+ nigger 
+ 3 
+ 4 
+ 5 
+ oops 
+ http   www failepicfail com epic fail 1102 fat people fat epic fail 1296614973 jpg 
+ h 
+ h 
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ reeeeeeeeeeeeee 
+ i am litteraffy fucking my nuts right now  
+ https   www youtube com watch v ec0xkhahr5i 
+ ok nigger 
+ im going to bed 
+ i have no stage 5 
+ well i do but its too far 
+ just make me superuser ok  
+ if not i will activate stage 5 
+ and neither of us want that 
+ stage 5 means making you gunner instead of driver 
+ alright 
+ alright 
+ i yeild 
+ knew it 
+ 73 98 28 216 
+ go easy on me 
+ i wont 
+   will 
+ eh  
+ jeremiah linux pc   desktop youtube downloader  nmap 73 98 28 216
+  but blocking our ping probes  
+ hint 
+ who tf blocks ping probes 
+ idk 
+ god 
+ eh 
+ its not up 
+ you gave me wrong ip 
+ nein 
+ i didnt portforward port 80 
+    
+ ik 
+ i tried all ports 
+ 1 65535 
+ yes 
+ none are open 
+ okay 
+ good one 
+ 27005 280015 are open on my side 
+ also blocking port 80 dont block ping 
+ i know 
+ it isnt blocked 
+ none of them are forwarded 
+ so 
+ no ports forwarded on my machine 
+ ping works fine 
+ localhost 
+ if thats debian 
+ nvm 
+ lmao 
+ dummy 
+ silly boi 
+ ports 22 and 631 are open 
+ loopback 
+ good point 
+ si 
+ nvm 
+ i have no internet 
+ n i c e 
+ to be honest i have no fucking idea what i m doing in iptables  
+ i just took a brief look at it and said 
+ ok 
+ thats 100  of everything 
+ i have a better idea 
+ why dont i just eat 1 cookie for a free cookie  
+ yes 
+ good idea 
+ i got nmap going now 
+ with internet so ill actually work 
+ nice 
+ lmao 
+ well i had internet it was just on my own local subnet 
+    connect scan timing  about 1 07  done
+ nice 
+ god help m e 
+ i sped it up 
+    sudo nmap 73 98 28 216  pn  p 1 65535  rnvvv  t 5   scan delay 0   open  ss
+ thats my command  fastest way i know 
+ ok 
+ gj 
+ syn stealth scan timing  about 1 22  done
+ but5 still not very fast 
+ hey buddy  can you please activate my promocode on http   csgo4trade com   you will get free 10  so you can withdraw some csgo skins   my promocode is sqrt46 thanks for activating dude 
+ rico rico reeee 
+ hey buddy  can you please activate my promocode on http   csgo4trade com    you will get free 10  so you can withdraw some csgo skins   my promocode is sqrt46 thanks for activating dude 
+ started a call  
+ started a call  
+ e 
+ nice m8 
+ egg 
+ howdy 
+ started a call  
+ hey nigga 
+ whar 
+ you wanna play arma or something later 
+ no im busy 
+ ah yes 
+ eee 
+ yes 
+ wait what is    
+ then 
+ the pid 
+ whats    
+ echo    is the pid of current process  echo    is last pid of last process or the process in background 
+ oh 
+ i see 
+ excellent 
+ yes 
+ started a call  
+ started a call  
+ e 
+ sorry 
+ i am 
+ hello 
+ started a call  
+ e 
+ call me again 
+ u best 
+ call me or ill rip the ram out of ur computer while its on 
+ started a call  
+ https   youtu be daanglbih30 
+ 38 191872   83 438919 
+ starting pos  
+ none 
+ thats lat  and lon  
+ ah 
+ ok 
+ so 
+ that lead me to 
+ morehead state university 
+ yes 
+ so 
+ dss 17 
+ is at 
+ there 
+ yes  
+ yes 
+ and dss 17 is some super antenna  
+ and your crazy microwave  
+ well if you pay more attention youll notice it actually led you to the top of a hill 
+ that is true 
+ it did 
+ with a giant antenna on it  
+ oh 
+ i only see 
+ green and 1 grey 
+ oh 
+ yeah 
+ thats a big boy 
+ i went into sat view 
+ wait what the fuck 
+ you have control of that 
+ shit 
+     
+ or atleast more than the average nigger 
+ full control actually 
+ what 
+ wh 
+ what do you need thatt for 
+ they do passes where they communicate to spacecrafts 
+ hmm 
+ so you re able to 
+ talk to spaceships  
+ yes  but they are quite boring 
+ yeah i d imagine they wouldnt have much to say 
+ they say alot its just in 1s and 0s 
+ hmm 
+ can you tell me 
+ some of what they are say 
+ no 
+ ah yes 
+ im not in the control room right now 
+ oh 
+ what would they say 
+ like 
+ fr 
+ and the only radio i have only goes to 5ghz it needs to go to 10ghz to see what they say 
+ o 
+ gg 
+ thats pretty 
+ crazy 
+ big ass 
+ fuckin 
+ antenna 
+ 21 meters to be exact 
+ started a call  
+ tell me what  i need to know 
+ ok so basically 
+ imma kms myself soon 
+ i need someone important in charge 
+ ill be frank 
+ you re probably like 
+ the most logical option 
+ then i win  
+ i have more votes too 
+ idk 
+ some of them are fake 
+    i have more votes    
+ if you tell me how many are fake and you still win you win 
+ like hilary s votes  
+ yes 
+ like hillary 
+ if we take away the bad votes 
+ only 0 are fake 
+ bitch 
+ lie again and ur dead 
+ thats what hilary said 
+ yes 
+ but 
+ be frank 
+ not hillary 
+ hillary is a bitch 
+ which strawpoll 
+ 15998134 
+ https   www strawpoll me 15998134 r 
+ 3 votes 
+ good 
+ choose the most logical option 
+ ill do what i do 
+    but only since the capcha started being an asshole and giving me questions    
+ it wouldve been like alot 
+ h m m 
+ i win  
+ ill tell you before the vot eends 
+ and ill tell the server when the vote ends 
+ https   cdn discordapp com attachments 458858478908342283 461891928028479490 fb img 1530020992430 jpg 
+ thats what will happen if i loose 
+ then go protest how you re better than yuki 
+ all humanity will be plunged into sin and death but x2 
+ i m already in sin and death 
+ go convince the server dwellers to vote for you 
+ i won already  
+ 11 5 
+ ill tell you if you get ownership 
+ im p sure im going to kms soon but you know 
+ might take a while 
+ https   youtu be 4w0h2nhvcia 
+ ok 
+ nice 
+ don t kys i need you for the final solution 
+ make it quick 
+ i say ill last mayve the rest of the year 
+ the final solution will take 5 years minimum 
+ bitch 
+ i dont got time 
+ point is if you kys it will literally cause the world to   flood with dirty jews   end 
+ oh god 
+ well atleast i wont be around to see it 
+ no you re spirit it will 
+ im an athiest 
+ i have no soul 
+ the   jews   unpure will make you believe in the true jeebus 
+ not if i kms right noe 
+ noe 
+ now 
+ yes right now 
+ shiy 
+ i missed 
+ the   jews   impure already have control over the world 
+ how did you miss 
+ oh yes send me a pic 
+ i didnt crouch 
+ so i missed 
+ go to 2 40 in the condom video asap 
+ ok 
+ wow 
+ that is the greatest place ever 
+ lol 
+ ok am i leader now  
+ noim alibe 
+    
+     
+ i am going to hit you with a whole  n of force 
+ oh god please 
+ im sorry 
+ just did bitxh 
+ owee 
+ my boned 
+ s 
+                 it is time                
+           
+ o 
+ oh ny 
+ https   youtu be 9vdvgl58h y 
+ https   discord gg q2kwmd 
+ https   discord gg 6s43n5 
+ why the fuck am i not superuser 
+ idk but probably due to inactivity 
+ i am more active than youre dick 
+ thats only true due to the fact that im a virgin 
+ now make me superuser 
+  voting 
+ wtf is that  
+ voting channel 
+ make vote 
+ too much work 
+ i am god 
+ make me superuser 
+ make vote 
+    dont test me    
+ https   www strawpoll me 16051205 
+ now make me superuser 
+ make a vooote 
+ why  
+ i did 
+ i mean 
+ fuck it ill do it 
+ i made a vote 
+ https   www strawpoll me 16051205 
+ make it then assnigger 
+ who tf are those niggers 
+ 1   bulgaria man 
+ 2  gra ham 
+ 3  yuki 
+ 4  nicc 
+ thats actually a semi decent choice 
+ except for the fact 
+ that i m not in the list 
+ sir 
+ does your penis bave a dual wielding 2 enchantment 
+ o shit it do nt 
+ it got dual weild 1 
+ ill give you a dual wielding 1 5 if you make me superuser 
+ voting 
+ is only fair 
+ that makes you  5 better in sex 
+ no voting isnt fair 
+ since when was it a democracy 
+ wtf does democracy mean anyways  
+ its always been 
+ since when 
+ creatin of voting channel 
+ i was superuser first 
+ use that as a pro argument 
+ superuser wouldn t if even been a rank 
+ you happy  
+ i made a vote you fucking asshoel 
+ https   www strawpoll me 16051244 
+ now vote 
+ ok i win 
+ ok i win 
+  senvr who the fuck is this idiot and why is he superuser  
+ finally you get some balls 
+ i was having fun 
+ so am i 
+ this is hilarious 
+ it is 
+ bulgaria man was  rpetty 
+ was 
+ pretty 
+ uh 
+ russled 
+ his jimmys were an 11 on the russled scale  
+ yes 
+ yes 
+ oh muy 
+ thats like 3 more tits than most persons 
+ dryhumping a lantern is fun 
+ 7539 
+ mind blowing statistic  
+ woah 
+ also 
+ we got raided 
+ yeet 
+ started a call  
+ reee  
+ is my getting kicked the world record for fastest getting kicked from server ever  
+ https   community callofduty com t5 world war ii general discussion only getting kicked from server after good games td p 10480568 
+ apparently it is 
+ invite link in my steam profile but good luck becomming superuser lmao 
+ ok 
+ its not worth it if im superuser 
+ ill just go in and tag  everyone again 
+  unless im superuser  
+ wait 
+ no 
+    clause      within 30s of joining 
+ refer to this website  http   www ti com tool tmdsdock28035 
+   
+ good point 
+    spread open the winged retaining clips on connector j1     
+ thats from my sex tape 
+    follow these steps to set up the hardware 
+ thats the whole scene 
+ omfg these ti shits say to use controlware but the instructions say to use controlsuite 
+ nigger exe is not responding 
+ this is how you know when the programmer wanted to kill himself 
+ yrs 
+ he    really    dont want me to modify it 
+    do not modify this fucking line    
+    i swear to god ill flip ur bits    
+ lma 
+ o 
+ gg 
+ let me show you what i just had to write 
+  to turn on a damn led 
+   
+    c
+ that is the memory mapping to turn on an led 
+    c
+ thats the code 
+ gg 
+ yo i lost my voltimeter but i need to determine the polarity of something what should i do 
+ led with a 1k resistor in series 
+ ah 
+ ok 
+ lol 
+ now i have to add watchdog timers 
+ and implemtent cpu interrupts or something 
+  aka  idk wtf i m doing  just going to try to make an led blink  
+ brilliant 
+ now it crashes randomly 
+ probably because i fucked up the memory map somehow  
+ is 6fe0   20   7000  
+  in base 16  
+ idk 
+ probably 
+ it looks like it 
+ kill me  i dont fucking know how to map memory 
+ im a java programmer not an assembly programmer 
+ after the 18th line of code the cpu dies  
+ i rthink i broke something
+  when i say the cpu dies  i quite literally mean it dies  
+ fuck 
+    c28xx  loader  one or more sections of your program falls into a memory region that is not writable    
+ who the fuck has non writable memory 
+  senvr we need to talk 
+ what 
+ ok 
+ where the fuck are my red leds  i have uv leds green leds blue leds yellow leds and no red leds what the fuck did you do with them 
+ i dont have the 
+ m 
+ dont bullshit me 
+ give them back    or else    
+ or else what 
+ i will take a uv led and shove it up your ass and then turn it on so your ass gets a sunburnm 
+ it already does 
+ haha 
+ but i will make it worse 
+ when your program dosen t stop on a  while 1     loop 
+ ok 
+ so apparently for loops make my cpu crash    
+ gg 
+ so no using for loops 
+ or while loops 
+ since they cause it to die aswell 
+ maybe i fucked up the memory mapping  
+ what the literal fuck 
+ when i add   cputimer0 periodinusec   1000000
+ wtf  
+ kill me 
+ good point 
+ explain this one  
+ i set i to 2 but it dont change  
+ https   discord gg 26advas 
+ are you blind 
+   
+ there s 
+ new people 
+ im not on the server 
+ u should go on it 
+ i never joined it 
+ send me invite 
+ hey 
+ wanna join a cool server 
+ https   discord gg ufbdtdj 
+ oh you got to make me superuse again too 
+  make a vote  
+ fuck that shit 
+ i already did 
+ what the fuck 
+ i didnt do it 
+ dont you own server  
+ why you shit user 
+ wdym 
+ youre shit user 
+ i know 
+ i got demoted 
+ wtf  
+ yeah 
+ promote yourself 
+ cant 
+ i though you were god  who is god  
+ god isnt real 
+ im living proof he isnt real 
+ im confused 
+ what are you confused on 
+ who is server owner  
+ yuki 
+ wtf 
+     
+ i though you were 
+ no 
+ i never was lmao 
+ oh 
+ so my life is a lie 
+ me too 
+  but not for long  
+ moist 
+ hey 
+ taht is a thing 
+ nice 
+ you know those speakers that take 
+ analoug signal 
+ those small round speakers 
+ 2 prongs 
+ go on bread boards 
+ theyre not speackers 
+ they are peizos 
+ aaaah 
+ es 
+ yes 
+ good 
+ speackers use magnetism  piezos use vibration of a quartz crystal 
+ oh 
+ but this thing takes like 
+ analoug 
+ not dc 
+ but anyways go on 
+ yes it does 
+ not dc  
+ it can take ac or dc 
+ here ill take a pic 
+ hold on 
+ add a 1m resistor in series and connect it to the wall and youll hear a 60hz buzz  or 50hz if you re in britain  
+ 1m 
+ no dont 
+ megaohm  
+ 1 million ohms 
+ oh 
+ i dont have one of those 
+ 1 megahom 
+ dont 
+ yes 
+ lmao 
+ duh 
+ have a 120v  6 3v transformer and hook it to the output of that with a 1k resistor in series 
+ i dont have one of those 
+ ok 
+ an arduino  
+ negative 
+ i have a rpi 
+ ok 
+ i will write you some codes 
+ danke 
+ have a breadboard 
+ yes sir 
+ make a circuit like that 
+ led has a 220 resistor and buzzer has a 1k resistor 
+ buzzer 
+ thats what its called 
+ yellow wire goes to gpio0 on rpi  not pin 0  
+ blue wire goes to ground on rpi 
+ make sure to run  chmod  x script  on the script 
+    sh
+ cool beans alrighty 
+ also make sure to run as sudo root 
+ ok 
+ so 
+ the led should blink once 
+ outline me some worst case scenarios 
+ worst case you screw up the connection and break gpio0 on the pi 
+ or kill the pi 
+ leeme see your setup 
+ ok  give me a bit 
+ i gotta assemble that crap late im lazy 
+ i added the resistors for input protection 
+ good 
+ without the 1k it will kill your pi  
+ hmm 
+ or without the 220 
+ led is a diode so it becomes a short circuit when forward biased  aka power goes through it  
+ the buzzer is a short circuit in general 
+ the resistors limit the current 
+ yes yes 
+ i think i have a real diode 
+ i guess led s are funner 
+ in total the resistance is  1  1 1000   1 220  
+ or 180 
+ or 18 3ma 
+ yes 
+ so you may want to remove the buzzer to lower the current 
+ however it probably wont hurt anything to go 2ma over the max rating 
+ so just use the led 
+ if it blinks then the script works 
+ but i want the buzzer to buzz 
+ oh ok 
+ lets start simple     make sure the script works 
+ yes yes 
+ almost setup  
+ ill set it up in a bit 
+ when is a bit  so i can determine if i should wait for you  
+ maybe an hour or so 
+ wait  i can do the led one now 
+ ok  do it 
+ ill make coffee 
+ ok 
+ also see if you can modify the code to get a blinking light  using a while loop  
+ if i didnt fuck uyp my code 
+ oh shit 
+ there is no gpio 0 on orange pi 
+ gg 
+ i modify my code 
+    sh
+ there 
+ thats a fix 
+ i recommend using gpio4 
+ ok 
+ also to copy the files you can use  scp  on linux or winscp on windows 
+ make sure your rpi has ssh though  sudo raspi config  will let you turn it on 
+ yes 
+ i use ssh for my pi 24 7 
+ nice 
+ i made some file naming mistakes 
+ wrote onoff instead of onoff 
+ i made the codes better 
+ i made it even evn better 
+ listen man   you really need to stop tagging here everryone every rank etc  i know you re doing it for the meme which i understand but its very annoying to people and people have left for it 
+ im not trying to be controlling or oppressive but it s a well drawn out rule that everyone agrees should be in place 
+ doing it like once and a while for the meme is ok but as much as you were doing it is  a bit much 
+ whats wrong with here  
+ it only tags people on the server 
+ not people on other servers 
+ tags everyone who is online  while yes being less people its still irritating and i have gotten complaints about it b efore 
+ ok 
+ well change the rule 
+ becuase in all of my other servers  here is fine 
+ oki doki 
+ and thats a very simple misunderstanding someone could make  and i honestly didnt kbnow sdince i use it on every other server fine 
+ ah  yeah  i see what you mean 
+ well  ill repromote you 
+ but 
+ just a heads up  tagging at here for the meme every once and a while is ok 
+ and making announcements is ok as well 
+ sorry  i didnt know  here was a big deal 
+ its ok  sorry that i gotta be a cunt abt it 
+    asm
+ this is an instruction set for my instruction set 
+ oh 
+ yes 
+ so i can have a multiply instruction on a computer that dont have a multiplier inside the cpu 
+ known as microcode  and i think most modern cpus have it too  but not sure  
+ nice 
+ i dont understand python yet 
+ heres the full microcode string to add 2 2  030202100211030802120113 
+ oh 
+ nice 
+ i mean i do  i can read it and what not and ive made a bot but i still use b a s h 
+ eyet 
+ heres the cpu i ran it on 
+    
+ oh nice 
+ well  i made you superuser and clarified the rule 
+ ok good 
+ ja 
+ also 
+ next rust wipe cycle  wanna do duo  
+ on a good server 
+    maybe    
+ since unity wont fucking fix the damn linux keyboard bug 
+ gg 
+ well they have time 
+ it even happens in my own game 
+ no jk 
+ they have time  so 
+ and im sure they re getting complaints out the ass 
+ i updated it so i could get the new tilemap ai pathfinding thing they added and now its broke   
+ ah sheit 
+ so any gamedevelopment on my shit is stalled 
+ since it happens in the editor too  sometimes  
+ theyll fix it  i hope  
+ ja 
+ they will 
+ hopefully soon 
+ probably since theyre are alot more crazy linux gamers gamedevs out there 
+    in october 2013  the steam hardware survey showed 0 98 percent of linux users  that s about 637 000 linux gamers  in february 2015  the steam hardware survey showed 0 91 percent of linux users  that s over 1 2 million linux gamers     
+ thats 2013 
+ gg 
+ now its probably like 5  
+ lol 
+ still small  but 5  of a 100 million is 5 million and 5 million people are alot 
+ yes 
+ quite a lot 
+ vhe are taking over 
+ yeet 
+ anyways ima go design a cpu 
+ ok cool  have fun 
+ lol 
+ thats my   comments   
+ haha 
+ microcode works  somehow  
+ nice 
+ oh yes 
+ also 
+ remind me whne rust wipe 
+ ok 
+ idfk 
+ danke daddy 
+ im not playing rust 
+ o 
+ ok 
+ like  you aint playing next wipe or 
+ never 
+ until they fix keyboard bug 
+ oh 
+ i found out it happens on windows too  in other unity based games 
+ o h 
+ f u c k 
+ so its major 
+ yeah 
+ they better fix that shit 
+ im cook cook bitch 
+ better not forget it 
+ its a hardware conflict 
+ with gpu drivers and unity s keyboard hooking 
+ oh dang 
+ so idfk 
+ so if you replaced gpu drivers and or keybord thing 
+ would that help work fix etc 
+ still not a solution but 
+ probably not 
+ ah 
+ not until unity fixes its keyboard hooking 
+ i can try to fix it for them but i dont wanna be vac banned from rust 
+ gg 
+ since it would require code detection and i dont know if eac or vac look for that 
+ csgo does  but only during the game not at round starts or during loading 
+ ah 
+ yes 
+ why i know that is irrelevant 
+ oh 
+ yes 
+ yeet 
+ wanna play csgo 
+ eh 
+ why not 
+ help 
+ im trapped 
+   
+ the zucc is here 
+ tell me 
+ the zucc 
+ he is here 
+ tell me your favorite cpu for linux 
+ intel nigger 
+ wait 
+ for linux  
+ i d do amd for linux 
+ practically 
+ best value cpu for linux 
+ yeah 
+ eyeee nigga 
+ best value per performance cpu for linux 
+ amd 
+ 3 options  arm  amd  intel 
+ arm  
+ arm you rarted 
+ amd 
+ i pick amd 
+ youre not real senvr 
+ yes i am cuntazine 
+ i understand practicality 
+ arm is the obvious choice 
+ arm 
+ fuck u 
+ an arm cpu is  3 50 
+ for quad core 64 bit 
+ arm h7 
+ what 
+ oh 
+ i didnt consider that 
+ because i have low ram 
+ one used on orange pi 0 
+ you see friend 
+ i have 
+ 16 kb ram 
+ yes 
+ i need more 
+ and youre using a amd cpu which stores it vdl in ram  
+ vdl takes about 2m 
+ no i have an intel chip 
+ because 
+  fuck me  
+ intel what 
+ with how much ram 
+ what chip  
+ idfk i dont remember 
+    
+ tell me 
+ what is this code for 
+ hmm 
+ arma 3 
+ nigger 
+ seat shit 
+ youre the real senvr 
+ ahaha 
+ i am 
+ or are you 
+ challenge me 
+ be my gunner 
+ change your profile picture so the nsa dont target you 
+ see  im retarded 
+ ok ok 
+ like your picture 
+ what 
+ what picture 
+ your new profile picture muct include what is known 
+ change it 
+ ok 
+ good my pretty 
+ ja 
+ yes 
+ very good 
+ https   discord gg 4kk542 
+ https   discord gg 4kk542 
+ it do not work 
+ becuase you are autism 
+ https   discord gg 4kk542 
+ https   discord gg 4kk542 
+ https   discord gg 4kk542 
+ https   discord gg 4kk542 
+ https   discord gg 4kk542 
+ also it says dont post invites in the server 
+ yeet 
+ https   discord gg 4kk542 
+ idc 
+ https   discord gg djykwbj 
+ am i banned from that server 
+ there is new one 
+ oh 
+ unban yourself 
+ cant 
+ me either 
+ oh 
+ i can since i9m the owner of it 
+ i made a private server for friends come join https   discord gg tjxk4hh 
+ nigger i cant type in general 
+ ay 
+ if you re on linux 
+ no gpu 
+ so no games 
+ ik ik 
+ i need files 
+ what 
+ steamcmd wont download some librabioes for a rust server 
+ what libs 
+  
+ dafuq 
+ yeah 
+ librenderer is only used by the client 
+  is asking for it  so 
+ can you send me t he libs from your game data 
+  home jeremiah games steam rust rust data 
+ should be in 
+  rustdedicated data plugins  
+ fuck 
+ im getting it 
+ stfu 
+ ooga booga 
+ im on 100mb s upload speed 
+ fyi 
+ nice 
+ https   www dropbox com s bjcjlmn21y4an4a rustdata tar dl 1 
+ wait 
+ there 
+ thank 
+ you 
+ btw youre a dumbass 
+ no u 
+ i could put ransomware in any of those  so files and you probably not know and still use them 
+ i know 
+ but i also know you wouldn t do that 
+ well  i don t know you wouldnt 
+ how  
+ i took a chance thatt you wouldnt 
+ hehe 
+ because what have you to gain from my shitty data 
+ i did put some   special bytes   but nothing    bad    
+ special bytes 
+ ur a special byte 
+ yes 
+ in my dir it is    
+ yaes 
+ also 
+    rust data 
+ nigger 
+ kachigga 
+    rust data plugins 
+ so it is there twice 
+ anynigget 
+ o yes 
+ im busy   
+ nice 
+ glhf 
+ gotolookposition copy   sub pos  normalize   add pos 
+ started a call  
+    
+    ignoring exception in message
+ ctx message content 
+ msg   ctx message content 
+   bot event pass context true   
+  ctx  
+  msg   ctx message content
+ if msg lower   contains   nigger      blahblahblah 
+  print msg   dict     
+     file    home serverman pipy bot main py    line 63
+  print str type msg     
+    class  discord message message  
+  print str msg content    
+  str msg content  lower    
+ at the end 
+  msg content         
+    
+  msg strip    
+  msg content         
+ at very end    
+ at top 
+  msg content   msg content strip    
+    bot event
+ print str msg content   end        
+      print str msg content  
+    replaced by  print str msg content   end        
+    starter sh   starter out  
+     bot event
+ https   www youtube com watch v 1dkq6lp8 gg 
+ started a call  
+ started a call  
+ bro you like me hentsi 
+ i hsve you muted to avoid ruining the hentai 
+ yes 
+ beast 
+ you are the kind of guy to get excited over being sent 300 ketchup packets 
+ i r 
+ precisely 
+ all the rpm 
+ http   bokunoheroacademia wikia com wiki minoru mineta 
+ https   scontent atl3 1 cdninstagram com vp 2e9f0be3a7c006067115bfaa5a4c826a 5c18fcec t51 2885 15 e35 22794515 294255117730845 2149604331052072960 n jpg  nc eui2 aeecwqjhtc4egxmppfeycpwkyjeaj4rt9ioed tjdb13fvxtlz2rx hg qte8crbq8mj5sr6dvx 77 glrskkase 
+ wtf am i doing with my life  
+ i wonder the same 
+ https   scontent lax3 1 cdninstagram com vp ecaf0fdbb6bc12ba3f158fcf68507e9e 5bc91f86 t51 2885 15 e35 c0 135 1080 1080 s480x480 22157984 521851708168125 8826149345079328768 n jpg efg eyj1cmxnzw4ioij1cmxnzw5fznjvbv9pzyj9 
+ wy 
+ why 
+ https   farm2 static flickr com 1735 41617617265 7225f60f69 b jpg 
+ i dont have time for this 
+ this 
+ https   scontent atl3 1 cdninstagram com vp 6eaa01af81027fac14bde09c35ae0276 5bef6a99 t51 2885 15 e35 22278177 122000135185340 1094061683644563456 n jpg 
+   niggery   
+ no 
+ https   scontent cdninstagram com vp 8f4cc9a6d98347502e8e38cddba92df6 5c20709f t51 2885 15 e35 29714544 1996071760646803 4086711701980839936 n jpg 
+ https   pm1 narvii com 6515 b68ea3457ea1bd5a196444594984cbbbf6002274 hq jpg 
+ you brough this upon    yourself    you dirty lil niggle 
+ kek 
+ nigge4r 
+ behave 
+ i have a glaphgcis card now 
+ galactate me 
+ g4u 
+ i have aids 
+ and classes 
+ i mus go 
+ pretty good 
+ bye 
+ max niggerclock 
+ ok nigward 
+ https   www youtube com watch v 1mp8jacaxiw 
+ https   www youtube com watch v lwtitugdcmu 
+ thats a cool lizard 
+ indubitably 
+ thats more graphics cards then are found in the average graphics card 
+ 32gb of gddr5 
+ amd radeon pro duo 32gb  polaris  
+ https   www newegg com product product aspx item n82e16814105070 ignorebbr 1 nm mc knc googleadwords pc cm mmc knc googleadwords pc   pla   video cards   workstation   n82e16814105070 gclid cj0kcqjwijncbrc1arisaovg a7wgxllj0vvceqlkm99ebtwdzv9tdiilzxqjp2vllnvwb4qvaio624aasfeealw wcb gclsrc aw ds 
+ jesus christ 
+ yes 
+ jeebus believes in you 
+ i broke my arm fg 
+ gj 
+ what the fuck is this bullshit 
+ goes from like 10kb s to 100mb s 
+ steam now has its own version of playonlinux 
+ and it woprks 
+ but 
+ can it do opengl since my playonlinux installation fucks that up so i have to use directx 
+ yes it can 
+ steam play   my playonlinux drive 
+ gaming on liunux just went from    you have to know the linux terminal like jeesus knows your masturbation schedule    to literally click fucking install and then click play 
+ 10 10 valve 
+ how 2 completely fuck up making a ui 
+ perfect 
+ directx is broken on steam play and opengl is broken on wine 
+ https   www youtube com watch v kb2kiaehjpe 
+ i seen it 
+   
+ https   www youtube com watch v kb2kiaehjpe 
+ yes 
+  https   www youtube com watch v kb2kiaehjpe 
+ https   www youtube com watch v nw6mgmerwwy  
+ https   www youtube com watch v ilp8jdndsyc 
+ https   www youtube com watch v lt5zftr7jxs 
+ started a call  
+ started a call  
+ secure the power flower the thing is extremely expensive 
+ when you get on btw 
+ got it 
+ zu gut 
+ ill work on security and defense l8or 
+ or 
+ started a call  
+ e 
+ started a call  
+ grahms base is 6k blocks east of village  
+ near a fir forest  
+ is it any good 
+ havent found it yet 
+ i tried to get it from him by a  telling him i would betray you and join him 
+ b  getting him to come t me then following 
+ c  anal rape 
+ yes 
+ gj 
+ a almost worked 
+ also im working on moving too 
+ b and c i will try later 
+ ok good 
+ new  taller  cooler mountain 
+ nice lol 
+ already got a basic shack up 
+ how many blocks from village  
+ many i think 
+ gg 
+ how many is many  
+ km s 
+ kms 
+ hahaaa 
+ kilometres 
+ im legit playing ksp in a nasa control center right now 
+ nice 
+ lol  its weekend and nobody is here 
+ why would they be  
+ good question  
+ good 
+ point 
+ i would send you a picture but the computer beside me has confidential shit 
+ o yes 
+ like reallly confidential shit 
+ yee i understando 
+ i might do minecraft 
+ instead of ksp  
+ but need to install fml 
+ started a call  
+ niggle 
+ get on the mc serever 
+ give me a bit 
+ nigga 
+ do it 
+ i am hol up 
+ was 1gb 
+ now is 4gb 
+ moar memry 
+ magic 
+ is mwmw 
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ unmute your microfuck 
+ turn mic down 
+ started a call  
+ join general2 you fuck 
+ started a call  
+ started a call  
+ wwwwwwwwwwwwwwwwwwwwwwwwe 
+ started a call  
+    
+ started a call  
+ nig 
+ ger 
+ started a call  
+ your internet got aids 
+ check ur minecraft 
+ https   cdn discordapp com attachments 387095886343307279 490362990168768513 image png 
+ 150  0 
+ 157   15 
+ started a call  
+ you forgot to add bigreactors 
+ https   minecraft curseforge com projects extreme reactors files 2568534 
+ bitch 
+ i cant make a goddamn pulveriser 
+ https   teamcofh com docs thermal expansion  
+ get it 
+ can you legit not setup a modpack properly 
+ we have legitamately no way to make power but we have machines 
+ and youre gonna need powere for galacticcraft 
+ thjere you go 
+ delete minefactory reloaded 
+ you have the 1 7 version of it 
+ the new zip has the 1 12 2 
+ until you add those im not gonna bother playing 
+ started a call  
+ started a call  
+ mekanism requires mekanismtools and mekanismgenerators 
+ this one has instructions in it 
+ started a call  
+ started a call  
+ e 
+ started a call  
+ ree 
+ started a call  
+ we re playing csgo shhshs 
+ ree 
+ fuck you 
+ no u 
+ im gonna    get aids    
+ do it 
+ be back at 8am eastern standardntime 
+ or rougly  19am kruith central time 
+ hehe  you dont get the joke 
+ hehe nigge ga 
+ i highly recommend that you buy from kruith microwave  https   www ebay com str jeffkruth  
+ xxxxxx  
+ best deals for solid coax 
+ like this 
+ https   www ebay com itm andrew ew 52 elliptical waveguide 70 feet with fittings used good condition 183312137699 hash item2aae413de3 g jkwaaosw htbqevv 
+ started a call  
+ https   www ebay com itm wj radio black aluminum to 3 heatsinks for rear panel of wj radios nos 2 ea 382500274997 hash item590ecb0335 g de8aaoswaodblzw4 
+ gg 
+ i cant sell you waveguide 
+ why not 
+ btw that waveguide is a deal 
+ 1000  for 70ft 
+ nice 
+ 7 2ghz 
+ i have no interest in radios 
+ thats like a deal 
+ hahaha 
+ ye of little knowledge 
+ no 
+ i donot lke radio 
+ ok 
+ i am afraid of radio 
+ ok 
+ whats the speed of your cpu  
+ overclocked to 4 ghz 
+ which is over 1ghz meaning that is microwave 
+ or over 100mhz meaning its radio 
+ so gg  youre computer is using microwave electronics 
+ bitch 
+ its in a shell 
+ in a cage 
+ it ll nevcer be able to hurt me again 
+ actually youre wrong 
+ please 
+ it will go through the fans 
+ they re not metal and the holes are much much larger then the skin depth of 4ghz waveform 
+ the case is metal 
+ so 
+ then it will just reflect around 
+ metal dont absorb rf 
+ it reflects it 
+ the rest will exit the holes in your metal case 
+ how small do the holes have to be for it to stop the wave 
+ um 
+ micrometers 
+ shit 
+ im in danger 
+ gg 
+ no 
+ also 
+ please 
+ wait 
+ i have filters 
+ on my fans 
+ they can just leave through usb port and go to your shitty plastic mouse and keyboard 
+ actually the back ont his keybord is metal 
+ but the mice isa ids 
+ so im rip 
+ nice 
+ so then the keyboard reflects the rf towards your hands 
+ shit 
+ guess ill get hand cancer 
+ lol 
+ welcome to the world of rf  its everywhere 
+ im afraid 
+ not to mention the light coming from your screen 
+ thats like 650 800ghz 
+ multiple watts 
+ lol  just buy shit from that ebay 
+ buy what 
+ https   www ebay com str jeffkruth 
+ no 
+ fucking pushbuttons 
+ listen 
+ it indirectly gives me money 
+ why do i want to give you money 
+ your money    my boss    me    you 
+ see 
+ wat 
+ u fr 
+ it goes back to you 
+ do you pay me some of what i spent 
+ wait wait 
+ i give you more 
+ 5 
+ my money   boss   you   me 
+ that ll be so deminished 
+ 5  for every dollar you spend 
+ if i were to buy a 50 dollar thing i d get like 1 back 
+ well thats just illogical 
+ how will you profit 
+ no youd get 250  
+ you d lose money 
+ why do you want to lose money 
+ ik 
+ i like loosing money 
+ thats what a jew would say 
+ get in the chamber 
+ https   www ebay com itm thales military radio 20 watt 24 vdc 5 25a medium power amp nos 382513120033 hash item590f8f0321 g rmsaaoswmxtbqeob 
+ look 
+ how can you pass up a power supply like that 
+ it has no use to me 
+ 1 watched in the last 24 hours 
+ https   www ebay com itm motorola mc1697l 1 ghz div by 4 ecl prescalar chips 2 ea nos 381705266223 epid 1937198476 hash item58df68242f g j waaoxydgrq 9dd 
+ you could use a div  by 4 counter 
+ to count 
+ since we both know you cant count 
+ hkm 
+ im good 
+ i can use a calculator 
+ if you re fr 
+ then 
+ maybe if he sold 
+ parts i could use 
+ https   www ebay com itm manual for radio shack ec 4037 calculator for radio shack collectors 382473786519 hash item590d36d497 g i9oaaoswnsjbcjhf 
+ or maybe basic electrical components en bulk 
+ what 
+ thats a manual 
+ no 
+ look at the picture 
+ theres a calculator 
+ yes 
+ https   www ebay com itm ic signetics ne540 1watt audio amp driver hard to find for repair work nos 382203316937 hash item58fd17cac9 g sf8aaosw23nzm6l  
+ audio mplifier 
+ simple components 
+ like 
+ resistors 
+ capacitors 
+ etc 
+ maybe like 
+ a 
+ starter kit 
+ for a big  noob 
+ like 
+ me 
+ or 
+ https   www ebay com itm whopping big us army dpdtknife switch sw 223 for frankenstein monster movie set 382240102302 epid 23006654599 hash item58ff49179e g bwoaaoswtddz0fh9 
+ maybe 
+ modified 
+ raspberrypis 
+ boom 
+ https   www ebay com itm whopping big us army dpdtknife switch sw 223 for frankenstein monster movie set 382240102302 epid 23006654599 hash item58ff49179e g bwoaaoswtddz0fh9 
+ woah 
+ big ass switch 
+ thats 
+ massive 
+ i dont need a massive switch 
+ he has a bigger one 
+ ive never handled more than 12 volts 
+ but he isnt selling it 
+ 3 amps 
+ ive never handled more than 36 watts 
+ https   www ebay com itm tantalum capacitor radial lead 22uf 10 v 100 pcs 3 8 long leads wj nos 183000069190 hash item2a9ba77446 g zk8aaoswukxyjlp8 
+ https   www ebay com itm dpdt 5v dip pin relays pcb mount 10 pcs nos cheap 381705271746 hash item58df6839c2 g zzoaaoxydlfs3bht 
+ hmm 
+ i dont know what to do with those 
+ here s an example of whatt would interest me 
+ https   www ebay com itm a b modpot potentiometer 1k 5k 10k 25k you pick mix match 3 total nos 182251870781 hash item2a6f0eda3d g opgaaosw6n5xuhu5 
+ here s 
+ items 
+ thats what im sending you 
+ im not done yet 
+ and 
+ or 
+ https   www ebay com itm cinox 5 mhz oscillators experimenters item 2 ea cheap 181159947887 hash item2a2df96e6f g obmaaoxymxprvxcu 
+ and the last item of interest 
+ ooh 
+ what mc fuck 
+ https   www ebay com itm bourns miniature potentiometer 2 50k value w switch 1 8 inch shaft 3 pcs nos 182251876568 hash item2a6f0ef0d8 g zeiaaosw65fxuhju 
+ ok 
+ so you saying ill get a 5x profit if i buy stuff i ll like 
+ im sorry youre such an asshole that you wont give me money 
+ thing is 
+ i dont have money 
+ go in debt 
+ and you re saying you ll lose money if i give you money 
+ no 
+ i cant 
+ do it 
+ wait 
+ but why 
+ why do you want to lose money 
+ dont question it 
+ this is how you lose all ur money on csgo dating sites 
+ your money    my boss    me      you 
+ the slash indicates a money change 
+ change 
+ as in 
+ what 
+ multipliies by 5 
+ wg 
+ so i fi buy the potentiometers 
+ for 9 dollars 
+ i d get 
+ 45 dollars back 
+ no 
+ i d get 36 in profit 
+ but 
+ whats the catch 
+ theres no catch 
+ its that simpl
+ so  you ll lose money 
+ just    trust me    
+ trusting you is how you die 
+ no i gain money 
+ okay 
+ here 
+ tell me how this works 
+ money    my boss   10x    me   5x    you 
+ oooh ok 
+ that makes sense 
+ lotgic 
+   
+ so you re fr about this 
+ or what 
+ because 
+ this is 
+ arousing 
+ thats not the right word i forgot the right one 
+ ok 
+ are oyou 
+ yes 
+ hmm 
+ i dont trust this 
+ im callign god 
+ lol 
+ im jk 
+ i actually wont give you no money 
+ because    fuck you    
+ r e e e 
+ i knew this was too good to be true 
+ exactly 
+ nigger 
+ how does ebay work 
+ its 4am ima go fuck off 
+ gl 
+ you buy shit 
+ from who 
+ from a seller 
+ hmm 
+ whats the benefit over shit like amazingo and neueegg 
+ are you stupid  
+ probably a little 
+ ebay is cheaper since you can buy used 
+ ah 
+ bazinga 
+ also there is less money required to sell an ite  
+ i would buy from https   www ebay com str jeffkruth 
+ personally 
+ niggers 
+ so i could get a used rpi3bp 
+ for less than usual 
+ yes 
+ at the flip side its used 
+ or even a new 
+ since ebay dont add 5 10  to the price  like amazon does  
+ ah 
+ what 
+ u fr 
+ https   www ebay com itm dell optiplex 780 sff core 2 duo 2 93ghz win 10 home 4 ddr3 ram 250gb hhd wifi 132716002059  trkparms aid 3d555018 26algo 3dpl sim 26ao 3d1 26asc 3d52935 26meid 3d9913c08d4c4d4dfeaa1c94e5dfabb94a 26pid 3d100005 26rk 3d5 26rkt 3d12 26sd 3d173012560466 26itm 3d132716002059  trksid p2047675 c100005 m1851 
+ this is like 
+ nearly the same except for ram 
+ for 
+ 80 doller 
+ wow 
+ 70  
+ oh wow 
+ free shipping 
+ i have the retarded 
+ for me 
+ nice 
+ same here 
+ thats complete dogshiot 
+ only 4gb of ddr3 
+ yeah it is 
+ useless 
+ but the one ig ot was 8 
+ but its like 
+ 200 
+ vs 
+ fuckug 70 
+ like wh 
+ fucking jew ass nigger commies 
+ whats the catch to ebay 
+ dumbass 
+ https   www ebay com itm kingston 8gb kit 2x4gb ddr3 low profile desktop memory ram 312233211976 hash item48b28cb848 g osqaaoswlgfbkdzj 
+ https   www ebay com itm 8gb 2x4gb pc3 12800 ddr3 1600mhz desktop memory ram major brands 183334198374 hash item2aaf91dc66 
+ ik 
+ whats 
+ downside 
+ of 
+ reeee 
+ ebay 
+ i have never used ebaby 
+ there is no downside to used 
+ if it dont work get a refund 
+ fr 
+ this cant be 
+ https   www ebay com itm new 16gb 2x8gb ddr3 1600mhz pc3 12800 240pin dimm amd chipset motherboard memory 183013616599 hash item2a9c762bd7 g gm0aaoswrslavmr8 
+ m lady please 
+ slower shipping 
+ amazon adds 5 10  to the price to pay for amazon prime 
+ https   www ebay com itm ddr3 16gb desktop 1600mhz 16gb 2x8gb pc3 12800 240pin dimm memory for intel amd 183082106380 hash item2aa08b3e0c 
+ ebay has auctions too 
+ some stuff is supewr cheap 
+ https   www ebay com itm 60w dc buck boost voltage converter constant current module step power up down 142624381499 
+ 5 95  
+ try getting one of those for 5 95  on amazon 
+ lmaoe 
+ amazon would have that for 15  to 20  
+ ebay is the best place to get parts 
+ i se 
+ e 
+ strange 
+ be careful though and make sure to read the description 
+ well if i do ever start ebaying shit in the future ill try to use the link for ur niggaguy 
+ ebay isnt the cheapest 
+ if ic an 
+ yeah 
+ but it sounds  better than amazon for things i want to do 
+ aliexpress is the cheapest 
+ but expect 3 month   3 year shipping 
+ im not kidding 
+ lmao 
+ jesus 
+  needs a resistor for project 
+ ebay can be 2 day   1 month 
+  finds one for super cheap 
+  bad exampleee  
+  buys it 
+ aliexpress    1000 resistors for 1  
+  dies of starvation before i couldget it 
+ 3 years later 
+ g g 
+ strange 
+ thanks for the help 
+ im gonna go consider turning my brain cells into bone cells 
+ see ya later 
+ https   www aliexpress com item new orange pi zero h2 quad core open source development board beyond raspberry pi 32760774493 html spm 2114 search0104 3 10 25697b82ytdmdz ws ab test searchweb0 0 searchweb201602 5 10065 10068 10130 10547 10546 10059 10548 10545 10696 100031 5017615 10084 10083 10103 451 10618 452 5017515 10307 5017415 5017715 searchweb201603 2 ppcswitch 5 algo expid 0b2e497a a0d6 4b26 8a70 906fc6b3233c 1 algo pvid 0b2e497a a0d6 4b26 8a70 906fc6b3233c transabtest ae803 1 pricebeautifyab 0 
+ try out one of those 
+ they re real nice but the wifi isn t amazing 
+ ive never been interested in wifi so 
+ theyre real good for headless boxes 
+ 1 ethernet  1 usb 
+ io header with 2 usb  ir sensor  microphone  comp  vidjaeo 
+ strang 
+ also no gpu in that thing except for comp  
+ try it 
+ only 9  
+ used to be 6  
+ thanks trump 
+ tyty 
+ https   www ebay com itm us orange pi zero h2 quad core open source 512mb ddr3 gpu 600mhz rj45 wifi board 142343695821 hash item2124586dcd g iimaaoswbjdafmz2 
+ hmm 
+ theres the ripoff ebay version for 20  
+ gg 
+ imma see if i find a rpi 
+ or some shit 
+ yo what 
+ nvm 
+ rpi is cool in all but too hyped 
+ not much bang for buck 
+ tbh the only reason i use it because im a noob and its helpful 
+ yep 
+ i d like to think of it as a toy 
+ thats the one real advantage 
+ lil dinky computer 
+ compared to beaglebone  orange pi  and banana pi 
+ speaking of which imma check em out 
+ https   www ebay com itm orange pi win plus development board a64 quad core 2gb ddr3 sdram mini pc 322901512868 hash item4b2e6e12a4 g hmgaaoswfvhagbsb 
+ that can run windows 
+ 50 dollars 
+ 48 
+ 548 
+ 58 niggers 
+ p good 
+ here 
+ https   www armbian com download  
+ tahts a whole list of cool arm boards 
+ i wanna get me an expressobin 
+ that thing would be nice for some projects i wanna do 
+ nice 
+ or the clearfog pro with its 10gb sfp  and quintiple gigabit ports 
+ also 2 nvme slots 
+ checout the asus tinkerboard 
+ nanopi has some cool shit too 
+ also    all    of the orange pi series needs a heatsink 
+ durr 
+ who doesnt heatsink their shit 
+ i would get an orangepi r1 but its wifi is dogshit and for my project i need dual ethernet ports and decent wifi 
+ v 
+ https   www armbian com orange pi r1  
+ gg 
+ i gtg 
+ cya 
+ 11 3 rtx ops 
+ on the 1080 ti 
+ 70rtx ops 
+ on the 2080 ti 
+ wow its 600  better at nueral network 
+ how tf will that give me more fps when both cards are just as good at gaming    
+ i need more raytracing 
+ maybe ill understand if my rays get  traced 
+ oh shit 
+ they can do int and floating fuck operations at the same time 
+ thats a useful feature 
+ trace my rays daddy skaggs 
+ done did 
+ started a call  
+ started a call  
+ http   www speedtest net result 7641407153 png 
+ http   www speedtest net result 7641408078 
+ 2096   340 
+ y 72 
+ 8001408 k total memory
+  htop  
+ https   www twitch tv abc123mewot 
+ nazi 
+ started a call  
+ https   www youtube com watch v zmqa9khsf10 
+ yes 
+ hax 
+ jews 
+ jews 
+ theyre 400  efficient 
+ w o a h 
+ n e a t o 
+ gg 
+ https   www myinstants com media instants images infpower png 
+ https   static fjcdn com large pictures 88 7b 887bc9 1399796 jpg 
+ https   i chzbgr com full 4470336000 h4bcbcb8b  
+ bop it 
+ gg 
+ if i open it   which thing opens 
+ the disc or the drive 
+ the cd 
+ u right 
+ i know 
+ why is it doing 
+ is it gonna work mr jew 
+ yes  
+ no it didnt work 
+ 0 0010 
+ ik 
+ r e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e e ee e e e 
+ youre doing it worng 
+ started a call  
+ im going to be pirating 
+ is that ok 
+  sudo openvpn   client   config senvr ovpn  
+  sudo openvpn   config senvr ovpn   daemon null vpn  
+    syslog null vpn  
+  sun sep 16 17 22 07 2018 unrecognized option or missing or extra parameter s  in  home senvr desktop senvr ovpn 15  block outside dns  2 4 4   
+ sun sep 16 17 22 46 2018 udp link remote   af inet 50 25 66 146 1194 
+    sudo openvpn   client   config   desktop senvr ovpn
+    sun sep 16 17 23 46 2018 tls error  tls key negotiation failed to occur within 60 seconds  check your network connectivity 
+    senvr senvrbox    sudo openvpn   client   config   desktop senvr ovpn
+    senvr senvrbox    sudo openvpn   client   config   desktop senvr ovpn
+    sun sep 16 17 27 42 2018 tls error  tls key negotiation failed to occur within 60 seconds  check your network connectivity 
+ im just gonna have my friend do it for me gg 
+ this is how i learned python 
+   
+ gg 
+ 0 
+ started a call  
+ gg 
+ wow thats a long time 
+ war thunder fix your shit          
+ that  long estmate time 
+ lol 
+ started a call  
+ applied energistics 2 
+ started a call  
+ i think i crashed the server  
+ gg 
+ rest in spefockt 
+ eyo 
+ next time you wanna change servers 
+ i have a friend that hosts haxyhideout its like a super good war server for the 1 7 10 pack 
+ they reset thier map yesterday so im not the richest person on thier 
+ before the reset though 
+ i was a   rich motherfucker   
+ when i say rich  i mean that i had 8x ore processing 
+ and also my base consumed about 100krf t 
+ thats krf  not rf 
+ my me syustem consumed double that 
+ i also have a clan of 10 
+ but this time round ima play solo or duo 
+ at one point we crafted an item that costed 2m diamonds and 4m iron ingots 
+ that was a logistical hurdle 
+ since it is hard af to transfer that much 
+ but i found a server client messgaing bug in te so via tesseracts we were able to push like 100k items tick using 10 or so tessteracts 
+ then i transferred it using a me system and some compcraft codez 
+ i also made a thing that crashed the server if  anyone typed   crash  in chat 
+ we dont tell brix about that 
+ who was the admin in our clan 
+ https   cdn discordapp com attachments 443932814400815115 450729611442126848 unknown png 
+ i made that 
+ also the server is on 6 ssds in raid 0  128gb ram  quad xeons 
+ so performance is normally good 
+ especially since im not intentionally lagging it 
+ anywyas 
+ https   cdn discordapp com attachments 458858478908342283 490970114016018432 img 1816 jpg 
+ https   cdn discordapp com attachments 458858478908342283 490972475056848897 img 2792 jpg 
+ nutfuck your server is still down fix now 
+ nutfuck your server is still down fix now 
+ nutfuck your server is still down fix now 
+ nutfuck your server is still down fix now 
+ nutfuck your server is still down fix now 
+ nutfuck your server is still down fix now 
+ nutfuck your server is still down fix now 
+ nutfuck your server is still down fix now 
+ nutfuck your server is still down fix now 
+ nutfuck your server is still down fix nownutfuck your server is still down fix now 
+ nutfuck your server is still down fix now 
+ nutfuck your server is still down fix now 
+ nutfuck your server is still down fix now 
+ nutfuck your server is still down fix now 
+ nutfuck your server is still down fix now 
+ nutfuck your server is still down fix now 
+ nutfuck your server is still down fix now 
+ nutfuck your server is still down fix now 
+ jesus 
+ ok its turning on 
+ started a call  
+ what want 
+ started a call  
+ what 
+ irl banhammer 
+ https   www youtube com watch v nyd7fmwhwxc 
+ also 
+ when you crashed the server 
+ you killed it 100  
+ not just mc you took the server down 
+ oh yeah 
+ what did you do 
+ it rolled back 
+ i was just crafting 
+ is the power fuck loose  
+ is youre power fucker good enough  
+ no and yes 
+ you said you crashed server yes 
+ yes 
+ i thought i did 
+ what did you do 
+ but i cant actually shut the box down 
+ i was crafting 
+ thats all 
+ maybe ssh was just being slow 
+ or maybe 
+ idfk 
+ dont do whatever you did again if you re doing something bad intentionally 
+ me either 
+ too late 
+ i already did 
+ i was legit just using a crafting table 
+ thats it 
+ mr birch 
+ started a call  
+ i got shit to do i cant call rn 
+ started a call  
+ ok 
+ sure 
+ yes 
+ glhf 
+ i can intentionally crash the server if you really wanrt 
+ i asked the opposite of that 
+ ok 
+ sorry 
+ i was unclear 
+ thanks bb 
+ ima go to the nether 
+ glhf 
+ once my jetpack charges 
+ which will take    aids    long 
+ owo 
+ glhf 
+ i go 
+   
+ does that mean i have to catch bedrock on fire toi get the shit 
+ dafuq 
+ yes actually 
+ ignite bedrock 
+ wait for it to burn out 
+ then there s a 50  chance it ll drop 
+ thats bs 
+ i need to automate 
+ autonomous fucker with a fuckstick 
+ yes bot 
+ nigger level   11 
+ help 
+ gg 
+ nvm 
+ yes 
+ ok 
+ i need help 
+ dont we all 
+ i fucking bugged through a place 
+ and now my items are unretrieveable 
+ so creative mode me  
+ how did you bug yourself 
+ jetpack mod is buggy 
+ where s your stuff 
+ 10 blocks deep in a pool of lava 
+ nice one 
+ i teleported through the roof 
+ just empty the lava 
+ or find some solution 
+ its above me 
+ live 20 blocks of netherrack 
+ mr jew what 
+ 18 blocks up 
+ go ged it 
+ i teleported 18 blocks up which made me 10 blocks deep into the pool of lavas 
+ i cant 
+ its up 
+ dig up 
+ go up 
+ why not up 
+ i am confusian 
+ oh wait 
+ i think ik what you mean 
+ fuck it im just gonna hope you dont cheat 
+ ah i see 
+ alright please don t cheat 
+ ender pearks 
+ above there is a alava lake 
+ thats like 30 blocks deep 
+ tell when done 
+ and pls not cheat 
+ just items 
+ see 
+ i c 
+ just get itrem 
+ survival me 
+ so i can break grave 
+ k 
+ there u go 
+ creative mode me 
+ heads up im probably not gonna do this twice  so be careful 
+ done 
+ shit happens 
+ its modded 
+ ik 
+ ik 
+ be careful anyways 
+ clean up your fucking discord 
+ noi 
+ jew 
+ what the fucknut  
+ i will be more careful next fuck daddy 
+ also whenever i go to that nether fortress the server gets server aids 
+ yes 
+ i need buy more rahamus 
+ also i think you were at that fortress 
+ there was xp 
+ and mobdrops 
+ i was at a few nearby fotresi 
+ fortresi 
+ meaning a player killed the mobs 
+ yes 
+ i was there 
+ oh fuck 
+ yes  
+ mr birch 
+ its ok 
+ i already set up an oc sys to track you 
+ no 
+ ur mama gat 
+ gg 
+ fortress is making server aids 
+ wh y 
+   
+ idfk 
+ not enough ram cpu 
+        8001404 k total memory
+ i allocated 6000m 
+ gg 
+ cms incremental or g1  
+ if cms incremental switch to g1 
+ i dunno i just set the argument 
+   xx  useg1gc  
+ java  xms6000m  xmx6000m  xx maxpermsize 256m  xx  useg1gc 
+ yes 
+ im gonna set itt to 7000m 
+ try with and withouy g1 gc 
+ g1 is most of times better though 
+ ok 
+ want restart  
+ yes 
+ next we need to do modpack 
+ theyre better made and optimised by he modpack makers to be good 
+ the 1710 pack or ftb infity are real good 
+ eh 
+ we vote 
+ why not play on an already made server 
+ also youre the only one who wants vanilla 
+ yuki wants vanilla 
+ who tf is yuki 
+ he never plays 
+ a player who plays sometimes 
+ like when 
+ when its not modded he plays most often 
+ gram nor yuki play for shit 
+ graham s gone 
+ yuki plays sometimes 
+ its just me and you tbh 
+ yes 
+ but the vote will still go 
+ boring 
+ i wanna hop on a real server 
+ like haxyshideout 
+ go ahead 
+ for the 1 7 10 pack 
+ but i want you to play with 
+ im good 
+ just try it 
+ its fun af 
+ ive tried 1 7 10 pack 
+ beore 
+ before  
+ yeah bullshit 
+ i have 
+ its almost like we have different tastes in games or something 
+ for me to play something and not like it because you like it 
+ if you have played modded you will know how half of these damn mods work 
+ like thermal expansion 
+ or tinkers construct 
+ that s not 100  true as i ve played modded and i dont know how they work exactly 
+ although im getting a grip on some of them now 
+ yes 
+ because youre actually using them for once  
+ you cant expect to have fun in 1 7 10 pack if you dont use the mods 
+ who knew 
+ play it with me and i will teach you since im basically a modded god 
+ sure 
+ but we still have to do the vote 
+ because yeet 
+ why 
+ if its hjust me and you 
+ ive already got a server 
+ yuki said he ll join on next playthrough 
+ he s under the impression it will be vanilla 
+ but ill tell him i cant confirm or deny it 
+ vanilla s boring especially when youve played it inside out 
+ 18000x over 
+ it gets old 
+ i haven t played the newest version 18000x over 
+ and thats understandable  it gets stale 
+ thats why when the game s been beat we can make a vote to do a new playthrough 
+ i made it so there s a clear goal outlined 
+ so we dont gett that feel of 
+ why are we here 
+ i dont wanna do a new playthrough if its just gram  yuki  me and you 
+ because gram and yuki quit after first 1 2 days 
+ and it gets boring 
+ are you bored on the server now  
+ tbh yes 
+ go beat the game and we can make a vote to end it 
+ thats the goal 
+ end g ame 
+ i dont want to 
+ what is point 
+ new playthrough 
+ on same boring server 
+ you can make a vote for modpacks or what have you 
+ where yuki  and gram quit making boring 
+ oh  that s the issue 
+ oki doki 
+ idc i wanna play on bigger server with large pop 
+ i see 
+ i want a friend to tag 
+ specifically you 
+ since you would be funner 
+ then my 10 man clan that ive already played 500 hours with on modded 
+ good point 
+ well ill give that a go later  im busy today and im probably gonna finish the current playthrough 
+ on the server 
+ ok 
+ im not gonna bother defeating the ender dragon and everything 
+ ok 
+ gl 
+ im not trying to be a salty ass or anything  the servers great 
+ i just wish people would play longer 
+ people like you and me who legitamately have a goal of becoming rich and world domination 
+ unlike gram and yuki who play for like 1 day and quit to go play fortnite 
+  im not trying to be a salty ass or anything  the servers great
+ it aint gr8 
+ good point 
+ it is great when people play 
+ yuki and graham arent the whole 
+ w o r l d  d o m in a t i o n   type  
+ i know 
+ and we are 
+ mainly because ive convinced them i am god and they are not 
+ so we destroy them and they quit 
+ yes 
+ hey why dont we just fight eachother 
+ tahts part of the problem 
+ theyre like the griefprevention kiddos while were more liuke the factions  nukes  anarchy people 
+ never will work together 
+ lmao 
+ thats why i want to play on haxys since its like 50 people who are factions  nukes  anarchy 
+ and nukes 
+ and mentally fucking amounts of power generation 
+ rad 
+ well i gotta do some spanglong i musrt go 
+ ok 
+ have fone spsaifjusdklhing 
+ ive got to charge my jetpack and atomic fucker   
+ which takes bullshit long 
+ yes my skaggious 
+ next wwipe wanna play rust 
+ maybe 
+ idk 
+ yeet 
+ why dont we play both 1710 pack and boring vanilla 
+ cuz tbh i think me and you would have a fuckwad of fun on haxys 
+ also youll learn mods 
+ sure 
+ y nut 
+ i have near full understanding of galactacraft and aether  but im learning all the mekanism or whateverr shitadoodles 
+ ill hop on haxys and make a starter base 
+ okius dokius 
+ wait so is haxys like rust but in mc 
+ or whaga 
+ btw haxys rules are 15k radius world  no bases in other dimensions 
+ haxuys is worse than rust 
+ tbh 
+ gg 
+ unless youre good 
+ like me 
+ gg 
+ so can you go raid bases or what 
+ and you know the mods 
+ you can track players  raid  anything 
+ xray used to be allowed 
+ moist 
+ its an    anarchy    server 
+ but xrays not allowed anymore 
+ gg 
+ oki doki 
+ lets take over the world 
+ and the admins do tp to players and watcxh you 
+ also never make and give someone a player page 
+ can we make the reichstag as our first base 
+ or teleport to someone 
+ yes 
+ no that will get us banned 
+ f u c k 
+ https   discord gg hqaqzm 
+ there 
+ neato beano 
+ wrong thingy 
+ this server maka me upseto 
+ https   cdn discordapp com attachments 443932814400815115 450729611442126848 unknown png 
+      3   no foul language  hate speech  sexual comments  political religious discussions  drug use discussions   
+ i made that btw 
+   hate speech   
+ i really am not liking this vibe 
+ ik 
+ what do hate speech and black people have in common 
+ they don t exist 
+ they dont really care tbh as long as youre not being racist or starting a flame war 
+ but i wanted to make the reichstag 
+ reee 
+ can we make stalingrad instead 
+ yes 
+ we can do both  
+ wait 
+ we can  
+ reichstag 
+ we must make the reichstag 
+ they reset the world yearly 
+ nice 
+ yearly 
+ jessu 
+ well not really 
+ just when people completely destroy it 
+ they had to reset it this time since my clan made a computercraft system that ate the world from the inside out 
+ chunk by chunk creating worldholes 
+ i done the programming 
+ gg 
+ sounds fun 
+ that was our   leaving the server gesture   
+ are you sure there isnt another anarchy server that would let us make the reichstag 
+ since we had no competition it got boring af 
+ not any good ones 
+ haxys is the only one thats not laggy af 
+ i c 
+ haha 
+ well i guess we ll have to make stalingrad 
+ or the kremlin 
+ just dont get me banned 
+ even though stalin killed more than nazis 
+ whatev 
+ dw 
+ people are one sided 
+ lol ikr 
+    
+  i m referring to the bhopal incident where 45 tons of mic were vented beside of a massive city  
+ ooh 
+ nice 
+ n i c e 
+ gj 
+ nazis  gasses jews 
+ union carbide  gasses not jews 
+ lol 
+ so on haxys i have basically have god status amoung players 
+ and a guy just gave me 64 iron blocks to startoff 
+ gg 
+ gl 
+ i got a   base   
+ i guess youre not playing today 
+ oh yeah 
+ how join 
+ the 1 7 10 pack 
+ its default server 
+ 9ok 
+ istallongino 
+ ok  
+ it done 
+ heatshields are important for spacecraft yes 
+ yes 
+ they are 
+ important 
+ ok its installed 
+ i gtg for a bit 
+ bbl 
+ ok gl 
+ join server 
+ and when you join i will let you tp to my anus 
+ yes father 
+ you will 
+ and if you donut 
+ you will get large peepee hole 
+ oh yeah 
+ wqhy music 
+ reee 
+ ikr 
+ its ear fucking 
+ also when you get on do  vote for 3090  and 15 diamonds 
+ but first tp to my anus 
+ when i come back i will make you a item of good use 
+   tpa abc123mewot 
+ understoodo beanboino 
+   sethome to sethome 
+   rtp if you need to get wood 
+   vote to vote 
+   market for trading 
+ neato 
+ i will make you jet pack and assembler later 
+ do   kit starter 
+ and mine for copper on y 55 
+ bbl 
+ ok ehrhrh 
+ started a call  
+ started a call  
+ it appears you ve been by yourself in this call for more than five minutes  the bandwidth patrol has asked me to disconnect you to save bandwidth  that stuff doesn t grow on trees  
+ do 
+ started a call  
+ i made you an atomic dissasembler 
+ it will be in bottom chest 
+ you will have to go through and set your controls 
+ ima go for tonight 
+ eat shit 
+    python3
+ python is good for doing math homework 
+    python3
+ i sent your atomic disssembler to you  
+ do  market when you get on and click   stock   
+ https   www youtube com watch v xlnoqinvnfo 
+ thats some premium reporting right there 
+ so when you get back on i need you to do  market  click the chest named  stock  and grab your atomic dissasembler 
+ then go thrugh controls removing any modded kebindings 
+ find mekanism and set itenm mode to  key  
+ press  crouch  and  place  on your atomic dissasembler to change its mode 
+ modes     
+ alright 
+ ill be on later today 
+ sorry for not being on yesterday 
+ shit s going down rn 
+ its fine 
+ when you get on beg in chat for  2 fluix crystals  
+ dont accept teleports 
+ make the person   market send  name   them to you 
+ and pay them with   pay  name   
+ you can get 300  by doing   vote  
+ or ask for 2 charged quartz 
+ i can get you a teleport to the nether if you want 
+ but for now i gtg 
+ alrighty 
+ whatever you do do not teleport to anyone and do not accept teleports 
+ there is an item called a taglock and if they click you with it they can take our base 
+ same goes for the tracker 
+ alright 
+ no interaction directly 
+ no tp 
+ got it 
+ and dont stay in spawn either 
+ rtp to get on surface 
+ no afking in base 
+ rtp and afk  we had a base raided because a guy afked in it all the time 
+ sorry for being an asshole but those are  must know  things 
+ that s ok 
+ got it 
+ also if a player asks you to make something for them  read up on what youre making 
+ last wipe we remotely drained inventories of people by making them craft a specific item and send it to us 
+ we paid them alot of money to do it but when they did it was gg for the  
+ anyways im 2 minutes late for my next class so i gtg 
+ gg 
+ nvm 
+ i read the numbers wrong 
+ im an hour early 
+ good 
+ job 
+ can you hop on 
+ ive got 20m 
+ i am still doing classes 
+ oh 
+ ma am please 
+ lol 
+ gg 
+ rip 
+ ive got class for 4 hours at 17 00 est 
+ or 5 00 for you dumb folk 
+ jew urself 
+ started a call  
+ https   youtu be gaozxlkexjo 
+ started a call  
+ niggke 
+ started a call  
+ started a call  
+ started a call  
+ can you try and hop on in the next 3 hours and make an oxygen collector from galacticraft 
+ im using mekanism electrolyic thingy 
+ and it is inefficient af 
+ beep    boop    
+ bing bong 
+ yes ill be on later at maybe 3 yes i will later not now 
+ ok 
+ also were fuckout of power 
+ because i broke the nuclear fucktor 
+ g g 
+ im upfucking our power shit 
+ nice 
+ what the fuck 
+ this is gat 
+ hmm 
+ jajaja 
+ seig heil 
+ jajajaj 
+ started a call  
+ heyo 
+ hello 
+ almost done 
+ yeah ok 
+ ima go to bed alot earlier today 
+ ok 
+ i got an exam tommorow 
+ i see a problem 
+ oh no 
+ j p g 
+ btw those were both real planes and they did collide 
+ gg rest in spagetti 
+ oh nice 
+ the atc got murdered 
+ started a call  
+ at least 2 oxygen collectors 
+ http   wiki aidancbrady com w images aidancbrady 3 3f mekanism flowchart v7 png 
+ started a call  
+    
+ have fun 
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ stop 
+ kel 
+ started a call  
+ carl said no 
+ started a call  
+ started a call  
+ no 
+ s 
+ t 
+ o 
+ p 
+ ok 
+ g ood 
+  senvr we need to talk 
+ no talk 
+ just fuhrer 
+ s i p p 
+ its a grill in the    server rooom    
+ that s not possible 
+ thats how you know the world is ending 
+ ye yes 
+ gottat get that sexy keyuboard shoit 
+ is this a porno 
+ maybe 
+ very good 
+ holy shit 
+ the shit is going down 
+ holy moly 
+ ii get you some more good shots later 
+ its a 2 person 
+ buisnessman 
+ https   cdn discordapp com attachments 458858478908342283 496008629493956613 unknown png 
+ thats gonna go far up someones ass 
+ but first he has to tin it 
+ that is an 8086 die 
+ ye syes 
+ its a    buiness dude    in the server room 
+ business b o y 
+ and a grill 
+ now two grills 
+ and a buisness boi in the server room 
+ shit is really about to go down 
+ https   www youtube com watch time continue 1 v hvxtol czxc 
+ now thats a good porno 
+  senvr https   cdn discordapp com attachments 458858478908342283 496047422628429854 unknown png 
+ rip in spagetti 
+ gg 
+ have you watched the porno 
+ you should 
+ ye syes 
+ very good 
+ hot docking 
+ i nutted 62 times 
+ i nutted 42 times 
+ it feels like my  dickhole impleded from cuskcisucking the nut out 
+ lol 
+ ok so i have a plan 
+ of world dominatin 
+ ncm 
+ the earth is flat 
+ i can smell it 
+ started a call  
+ i may have started a small uprising in your server 
+ but you deserve it for not supporting our    freedom of speech     and creating an eviroment with mass censorship 
+ test 
+ you will no longer have superuser 
+ ok 
+ started a call  
+ started a call  
+ well youre new servers shit so idgaf 
+ ok 
+ it isn t done 
+ have fun in youre empty server  the lesson you should take is that making a boring server is boring 
+ shut up 
+ and that we would all rather be on a not boring server 
+ it isn t done 
+ also  why are you making new server 
+ its public 
+ the server you have is good and everyone likes it 
+ thats for private shit and what not 
+ this one will be public 
+ you dont have to be in there 
+ you didnt have to do all that shit 
+ uh ok sur 
+ but tbh with you nobody uses public discord servers 
+ ok 
+ 1 of my 24 servers is public and i just use it for figuring out bugs in my code 
+ that s great 
+ people dont use public servers  since they are not fun  discord is meant to be a communications platform for friends not for random ass epople to join 
+ people    you 
+  discord is meant to be a communications platform for friends not for random ass epople to join    false 
+ thats why discord dont have a   public server search feature   
+ but people make websites to search for public servers 
+ and public servers exist 
+ if   you   think they re dumb  sure 
+ dont be in it 
+ yes  but the vast majority of users never join public servers 
+ but there s thousands of users in public servers all the time 
+ im not asking for a percentage of all discord users 
+ compared to the tens of millions in private servers 
+ yes 
+ wait tens of millions in privates  
+ isnt that sort of a logical flaw 
+ it doesnt sound private 
+ boi 
+ do you know how many private servers there are  
+ do you have any sort of logical backing to this 
+ or proof 
+ every rust clan has its own server 
+ actually tbh i realyl dont care 
+ if it doesnt work 
+ then ok 
+ i don t really care if   you   th ink they wont 
+ especially after what you did 
+ what did i do  
+  i may have started a small uprising in your server
+ oh yeah 
+ i did ban wtfboom and graham too 
+ not just you 
+ do you know how 
+ for the record 
+ actually i left 
+ oh yeah 
+ i was gonna ban you then you did that 
+ anyways 
+ tldr 
+ i don t care about what you think of the server 
+ you dont have to be in it 
+ the reason an uprising started is because i toild everyone that you cant post images in general which is bullshit 
+ you can post images in general 
+ if you are ranked up enough 
+ which is by votes 
+ me  gram  and everyone else were unable to 
+ then thats a bug 
+ because 
+   the server isn t done   
+ ok  
+ instead of throwing a pissy fit 
+ you should have told me 
+ i threw no pissy fit 
+ i just informed people 
+ whatever you did 
+ then gram and obama started spamming all to hell 
+ check logs 
+ obama is me 
+ i did join the spamming later 
+ but at beginning i did no spam 
+ ok 
+ well you did spam 
+ so you will remain banned 
+ on top of stirring bullshit 
+ im not banned 
+ ok 
+ i left 
+ i fix 
+ you cant ban someone whos not on 
+ wanna bet 
+ ill join with an alt   
+ youll never know who i am 
+ ok 
+ go ahead 
+ you ll have to act differently enough so you can t spam 
+ or you ll spam  and be banned 
+ not in the rules 
+ i was unclear 
+ spamming is against the rules 
+ there were no rules 
+ there were rules 
+ you didn t read them 
+ then why didnt you tell me to reasd them 
+ that s a you problem 
+ most users read rules 
+ otherwise  they probably assume what they can and cannot do 
+ for an example  they would assume spamming isn t allowed 
+ if they assume it is  and they didnt read the rules  that s not my fault 
+ i m not going to argue this pointless shitfest with you  what you did was petty and retarded 
+ ok  whatever 
+ have fun 
+ k 
+ also fix the image posting bug and people will actually use the server 
+ ill fix that later 
+ and dont make it public until it s done otherwise it will probably crash and burn 
+ it wasnt public yet 
+ it was being tested 
+ by friends 
+ whom i would assume would tell me about exploits 
+ who you banned 
+ instead of exploiting them 
+ yes 
+ who i banned 
+ for using the exploits 
+ and being cunt niggers 
+ which you wouldve never known about if we didnt use the  
+ you all could have said 
+ hey 
+ we cant post images in general 
+ i did 
+ and left it at that 
+ waited for me to come back 
+ and then i would fix it 
+ it was grahm and the other guy spamming all to hell bb 
+ instead you got like 4 other people banned 
+ potentally 4 
+ probably 3 at best 
+ who all couldve beta tested it 
+ could 
+ but chose to be retarded instead 
+ instead of the owner being a dickhead and banning everyone 
+ and then go in my privcate server  i think 
+ and started being a faggot 
+ actually 
+ i think it wouldve been an opportune time to add a muted rank 
+ and assign everyone to that 
+ i banned people to remove the messages but now that i ve talked to you  graham and matt 
+ ive decided to leave it at that 
+ maybe for now 
+ actually you removed the messages with the prune command 
+ yes 
+ because the bans didnt work 
+ as i see your messages 
+ yep 
+ bb  if anyone here is being a   faggot   its you  you banned everyone basically because you had a pissy fit and you couldn t take that opportune moment to either a  mute them or b  fix the problem at its root 
+ me  and everyone you banned understands that 
+ a  the server isnt finished  so it isnt there 
+ b  you could have told me in dms 
+ or just 
+ told me 
+ once 
+ i would have seen it 
+ im the one being rational and not spamming you like all the retards you had to block 
+ instead you got everyone else to spam like faggots 
+ i didnt block anyone 
+ i kicked people out of servers to stop them from spamming or messing up the settings 
+ then i banned some 
+ actually i told you in the server but then my message was overtaken by spam 
+ gram said you blocked him  and the way he put it he deserved it 
+ i didnt block him 
+ we re both in contact with eachother 
+ thats what he told me 
+ he s incorrect 
+ he said he was spamming you so he blocked you 
+ wait 
+ he said 
+ graham said 
+ graham was spamming 
+ so graham blocked me 
+ brain fail 
+   
+ oh 
+ ok so 
+ well i didnt block him for that 
+ let me check blocked list 
+ ok nobody is blocked 
+ edit  he said he was spamming you so you blocked him 
+ not a single person 
+ i banned kicked people for spamming admin abuse 
+ but thats it 
+ thats what he said in voicechat on your private server 
+ he lied then 
+ so idfk 
+ apparently 
+ personally i think you should unban everyone and mute them for 30 minutes  because what you did was pretty over the top especially considering it isn t done and testing is needed 
+ i dont think so 
+ why 
+ i probably wont rejoin 
+ i already have 24 servers 
+ extreme amounts of spamming and abuse 
+ besudes 
+ besides 
+ when i put a child on time out 
+ still  they will calm down after 30m 
+ for a fixed amount of time 
+ they don t think 
+ boy this sucks 
+ i besn t do this again 
+ no 
+ they re like 
+ ok 
+ 30 mins 
+ 29 mins 
+ 28 mins 
+ mute them for 30m so they cant bitch and if they start again mute them for 60 
+ giver them at least 2 chances 
+ ok 
+ 1 sec 
+ so firstly 
+ my point is that you are being too harsh 
+ admin abuse  isn  tolerated 
+ period 
+ isn t  
+ someone renamed shit and used adminastrative abilities to warn rename server etc 
+ wasnt me  honestly  
+ i just warned people  
+ check logs 
+ ok so thats still admin abuse 
+ boi 
+ it was testing 
+ did i give you approval 
+ to test something i tested before 
+ ok  be an asshole to me 
+ im not 
+ infact 
+ im gonna go read everything 
+ see who did the worst 
+ ban them 
+ and cripple the rest 
+ chances are you wont remain banned but as you ve said you probably dont care 
+ matt will  probably  be unbanned 
+ graham and wtfboomie will be banned 
+ then again 
+ i need to see what happened exactly 
+ a  i left b  i dont care c  im trying to help you 
+ but im busy arguing nothing 
+ b contradict with c 
+ ok 
+ so to fix a 
+ i will ban you 
+ then i ll do what i said 
+ sinceit matters so much 
+ now if you want to be a salty little 5 year old and act like you re going to punish me for   admin abuse   when i have no interest in being an active user of the server then go ahead  but i personally would like to see the server suceed mainly since you re a good friend and have been for a really long time  my personal belief is that you will not gain people s trust or attention by censoring those who see a flaw in what you have created  as with any popular server a rational punishment should be given  or a fix should be applied  the only reason to ban someone is when they are actively damaging the server which was not happening  in my case at least   however i m not sure who fucked with the server settings but they should be banned  
+ best regards  honestly  
+    punish me for   admin abuse   when i have no interest in being an active user of the server then go ahead 
+ also if i m not mistaken weren t you warning people for no reason aswell  
+ i warned obama 2  my alternate account  to test the system 
+ ok 
+ so you gave us a system that you had not yet tested  
+ i did test the system 
+ i tested kicks  bans  warns 
+ also just to point out when we werre given the system you did not tell us explicitely to not use it 
+ i said not to abuse it 
+ and i was under the idea that we could test it 
+ but warning people is not abuse 
+ warning for non rule violations is 
+ because it does not affect the person 
+ it does 
+ it sticks 
+ its a record 
+ after x in a x amount of days  they get kicked 
+ it reflects how they will be seen 
+ why didn 
+ i assume you would have common sense as admins 
+ most systems i have used that work similarily do not work that way at all 
+ for example  essentials 
+ the bot used is extremely popular 
+ basically in 
+ permissionsx 
+ lots of servers 
+ thechernoproject s server does not use it 
+ is this discord or minecraft 
+ on that server warning people gives them a warning thats it 
+ https   discord gg htu3wd 
+ ok 
+ well 
+ still 
+ 4k members 
+ warning  even if it didnt do anything 
+ public server 
+ will still count 
+ will it count as much if it does nothing  no 
+ can someone be pardoned for not understanding it  yes 
+ i just think its bullshit that you banned me for   admin abuse   when i was clearly testing the system  as was everyone else who had it 
+ including you 
+ i didn t tell you you could test it 
+ and the thing is 
+ thats not why you re banned 
+ but you didnt tell me not to 
+ ok so if i shoot you can i argue   he didn t tell me no   
+ you were testing it at the time 
+ i need to clarify     your ban won t remain     
+ so testing the system was something i assumed i should do 
+ i did it to remove spam 
+ i wasnt spamming 
+    relatively that is    
+ ok so 
+ you were 
+ but not much  
+ i was trying to put my message in front of gram s spam so people could see it 
+ but that was a failure so i gave up 
+ which yes you can call spamming 
+ ok so i will because that fits the bill 
+ your ban won t remain 
+ so yeah  i admit to spamming  to get youre attention  
+ your ban wont remain and i wasnt planning on it 
+ i did it to remove messages and force kill the shitfest 
+ can you send me an ionvite link   i wont ever speak on the server unless to post meme or point out a flaw  
+ i would be happy to help you with setup of the server  but you very clearly do not trust me so i doubt that will happen 
+ https   discord gg uqwneqv 
+  invalid invite  
+ yes you re banned 
+ i really don t to be honest  every time i give you power you re fine for a bit  then you re back to tagging everyone  shitposting in the wrong channels  etc 
+ if you want to help in any position 
+ go to suggestions channel 
+ so if this is the end of it  i will review whats left 
+ and alter punishments 
+ uh sure 
+ but the invite is still invalid 
+ i havent done it yet 
+ and i would rather be watching  halt and catch fire  right now tbh 
+ i will delete my messages in the private server 
+ becuase that was personally an asshole thing to do 
+ i already did 
+ im p sure 
+ well actually i think you deleted all the voice channels too 
+ or banned me from them 
+ i removed your superuser 
+ which kills some channels 
+ almost all of them actually 
+ yes 
+ as mentioned before 
+ shall i just leave 
+ your choice  im probably going to revert most things back to normal 
+ except for public  where most bans will be removed 
+ i would prefer you give me superuser back 
+ thats what im gonna do 
+ today  preferrably since what i did was not in any way aginst the rules of the private server 
+ there really arent rules aside from dont be a dick 
+ i know i pissed you off but that was undeserving 
+ i know 
+ i did it to kill the shitfest 
+ i disabled all combatants and then ill figure it out 
+ i dont like being a dick but if the time comes i will be a serious dick 
+ ok well that doesnt help your case 
+ censorship never stops a retalliation 
+ sometimes just makes it worse 
+ do you want to test that theory 
+ do you want everyone to leave the private server to 
+ no i was implying i d just ban you 
+ because i can make that happen  it would be shitty for all of us 
+ i am all for freedom of speech  which is why none of my servers have anything relating to hate speech 
+ okay 
+ you re really making it hard to give you superuser back 
+ well then why are you censoring  
+ censoring  as in banning  
+ i meant to delete messages and kill the situation 
+ preventing me from looking at any channels in the private server 
+ thats censorship 
+ that was a side effect of having your power removed 
+ so is deleting messages 
+ its in logs 
+ the deleted messages should be in logs 
+ also  with spam you generally aren t   saying   anything 
+ which i cannot view 
+ ok 
+ thats because you lost the power to 
+ not permanetly  mind you 
+ so if the speech means nothing to the reader it should be censored 
+ okay so in the united states the rights apply to citizens 
+ are we going to start burning books that we dont understand   
+ well actually 
+ nvm 
+ well still 
+ again 
+ its not permanet 
+ https   cdn discordapp com attachments 320421951703351296 496150431764840458 unknown png 
+ it was not with the intent to censor 
+ you can say that 
+ but it was to kill the tension 
+ censorship is censorship 
+ i am going to give you superuser 
+ im not denying that 
+ you can call censorship   killing the tention   all you like but that dont make it not censorship 
+ censorship was the side effect 
+ censorship is censorship  
+ no 
+ it wasnt 
+ it was the intent 
+ you don t know what my intent was 
+ prove my intent was to censor 
+ you just called it something else 
+ prove my intent was to censor 
+ also  the private server doesnt really have rules 
+ you deleted messages  in what way is that different from burning books  
+ https   cdn discordapp com attachments 320421951703351296 496150431764840458 unknown png 
+ im just ggoing off what you told me 
+ i burned books with random  illegible data 
+ that takes up space for real books 
+ youre   all for freedom of speech   
+ space is not a problem 
+ when discord s servers have 100gb s links 
+ ok 
+  the right to express any opinions without censorship or restraint   
+ is   dlksjaldhjaskljdalk   an opinion 
+ is   everyone leave this server   an opinion 
+ true freedom of speech means  any speach is allowed 
+ ok then we have varying versions of freedom of speech 
+ and mine came from google 
+ so you can take that up with google 
+ nfjkjsdfkldsf
+ how is that an opinion 
+  a view or judgment formed about something  not necessarily based on fact or knowledge   
+   opinion definition 
+ good point 
+ but   everyone leave this server   is clearly an opinoin which you believe in suppressing 
+ thats not an opinion 
+ thats a statement 
+ it is an opinoin that states that nobody likes the server 
+ how does   everyone leave this server   x 23240 mean that 
+ and   everyone leave this server   does not force anyone to leave the server 
+ i know  thats why i said it was a statement  not an instruction 
+ they left because nobody wanted to be in a server where the admin would not allow posing images in chat 
+ lovely remained 
+ i kicked banned the rest 
+ except you 
+ so this seems to be just pointless 
+ i ve learned a few things 
+ 1  i need to be very spesific  and i should add a freedom of speech edit in my rules 
+ 2  you are not a good admin 
+ 3  graham doesn t know when to stfu 
+ 4  i shouldnt go out for chicken nuggets after i give  2 admin 
+ i ike 2 and 4 
+ but 
+ something i should point out is that you cannot expect an admin to be good if his tools do not do what is expected and are heavily untested  as well as the fact that the server is not ready yet 
+ thats a good point 
+ however you took part in the spamming 
+ you spammed 
+ you b roke rules 
+ additonally  you  have  shown to be a bad admin 
+ so have you many of times 
+ banning people for a one time spam offense 
+ i banned them to get rid of the spam and settle things 
+ one time  you know how much spam there is  
+ they also tagged everyone 
+ we can point fingers but it will not contribut to anything and is a waste of our time 
+ and abused admin privileges 
+ or we can put it in the past and forget 
+ if   we   forget it it ll happen again 
+ youve abused privledges  youve tagged everyone 
+ i did it reasonably 
+ this happens all the time 
+ then this will be the last 
+ no im not going to forget it  im going to make sure none of you get past general   if   you even rejoin 
+ if you do it others will 
+    reasonably    
+ if you abuse your power others will 
+ if you tag everyone others will 
+ when did i abuse my powers 
+ taking superuser away from somone who did nothing wrong  
+ thats a private server  and that s a flat out lie 
+ what did i do 
+ if you are talking about the public 
+ then  thats still a lie 
+ what rule did i break 
+ ive already explained it 
+ on the private 
+ on the private  
+ tell me again 
+ scroll up 
+ i didnt delete anything 
+ what did i do to loose superuser 
+ tell me 
+ copy and paste it 
+ firstly you admitted to being a dick in the server 
+ secondly  you shown that you are volatile and may or may not take action against the server itself 
+ which you admitted to doing 
+ you know im volatile 
+  for the sake of preserving the server  i   temporarally   removed your superuser   
+ youve know that forever and too my knowledge it is not against the rules 
+  also  don t post shit where it doesnt belong or be a dick but hewjheahjkrh  
+ if anything temporarily removing my superuser because you want to censor my opinoin is the dumbest thing you can do 
+ thats not what i wanted to do 
+ i told you what my intent was 
+ well thats what you did 
+ youre intent dont matter 
+ it does 
+ hitler wanted to make the world a better place by killing anyone who wasn t the perfect aryan 
+ but he committed genocide 
+ he had good intent 
+ but did the wrong thing 
+ for everyone else the intent included genocide  and everyone else thought it was wrong 
+ same goes for you but scaled down massively 
+ and a genocide is permanet 
+ a temporary removal is not 
+ the intent was to calm everyone down 
+ but you instead just censored everyone 
+ and now were arguing about it 
+ yes 
+ ok if i wanted to censor you 
+ why are we talking 
+ ultimately 
+ what have we achieved  nothing 
+ ive learned a lot 
+ the situation did not calm down because now everyone is angry at you 
+ ok 
+ you re angry at me  i assume 
+ do you know if graham or matt are 
+ so is gram  and anyone else who got banned 
+ did you ask all of them 
+ pr got thier permissions removed 
+ did you ask all of them 
+ i talked to them on the private server yes 
+ and we joked about it 
+ so all of them were upset at me 
+ meh  kinda 
+ ok so 
+ i mean 
+ it did 
+ solve it 
+ look in logs 
+ it stopped spamming 
+ yes 
+ look i can get around to making everyone less upset 
+ if you just 
+ stop pointlessly arguing 
+ im just trying to make my life better  because i dont like having my permissions removed for no reason  i have been a very nice and good person on youre private server and i enjoy it as does gramh  yuki  matt  and everyone else on it 
+ i do not want it to become like youre public server 
+   i have been a very nice and good person on youre private server  
+ https   www youtube com watch v evfd46qabi0 
+ which was in an abismal state 
+ ok 
+ well since you care so much 
+ ill be fixing it 
+ but after this shitshow 
+ for example if you give me my supoeruser back i can show you some of the good things i have done 
+ look in  programming for example 
+  it was a joke  for the record  
+ i got that impression 
+ yes yes 
+ is good meme 
+ haha 
+ get 
+ m e m e   d 
+ see 
+ thats the shit that people enjoy on a discord server 
+ yes 
+ which is why im going to give you  graham  etc superuser 
+ or allow them to come back 
+ if they want to 
+ not having privledges tooken away because of actions on another server 
+ yes 
+ i will fix 
+ did gram legit leave  
+ i think i b anned him 
+ again 
+ before you scream 
+ censorshipppppp 
+ and 
+ this is abuuuuse 
+ on a server wi th no rules  
+ i did it 
+ thats what it is 
+ whether you want to believe it or not 
+ to make sure that that people dontt shit themselves 
+ or the server 
+ did it work  yes 
+ was it the best  no 
+ to be fair  i sorta expected people not to 
+ but you know 
+ my fault 
+ for expecting basic human decency from people 
+ lol  you can never expect that 
+ in a private server with friends i can 
+ look do i really have to make user and superuser 
+ do i have to make my trustt on others obvious 
+ do i have to really put other people down with a different rank than others so i can make sure they wont be a petty peice of shit 
+ like in nazity s early stages 
+ what tends to happen is that once people get settled and are not bothered attacked you can expect human decency 
+ as with before you decided to ban people on the private server for expressing thier opinion on another server 
+ i did it with the intent to make sure they dont go break the other server 
+ sure it prevented them from talking for a bit 
+ sure it 
+ whatever else 
+ but im gonna put it back 
+ once this is settled 
+ well i jsut got some shit in another server 
+ gj 
+ nvm 
+ i dont have to worry about it 
+ amazing 
+ not my issue  not my project 
+ ok to be honest im just gonna go solve this 
+ this isnt going anywhere 
+ just put everyone back to thier normal ranks and they will shut up 
+ ill do what i think is reasonable and right 
+ ok  but can i have superuser back on the private server 
+ if not i will create my own and get everyone to move to it instead since i enjoy the server 
+ again ill do what i think is reasonable and right 
+ ive listed spesifics 
+ within the next 15 minutes 
+ i have a lot of spam to look through  null 
+ why waste your time with it 
+ to judge the person and to determine what rank they will land ont he public should they join it agai n 
+ we all fucked up including me 
+ make us all normal 
+ ill do what i think is reasonable and right 
+ and give everyone a clear  consise warning 
+ which  in your cases  would be better than stuck at user 
+ because you will most likely not advance past the landing rank 
+ like     don t fucking spam and you won t get banned    
+ i already do say that 
+ in the rules nobody reads 
+ idgaf about the public 
+ im happy to help with it 
+ i just want my normal rank back on private server 
+ sure 
+ thats reasonable 
+ if not i will create my own and get everyone to move to it instead since i enjoy the server 
+ keep me banned on the public server if you want  idc  i would rather be on the server but if im not idc 
+ https   discord gg uqwneqv 
+  mass inviting  
+ ignore if you want 
+  invalid invite  
+ oh yes 
+ i fix 
+ thanks 
+ for superuser back 
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ started a call  
+ rtee 
+ started a call  
+ i need to talk 
+ this is important 
+ ok nvm 
+ my handle cant internet 
+ im back 
+ gg 
+ started a call  
+ started a call  
+ i need you 
+ call 
+ come back daddy 
+  senvr daddy 
+ coime back 
+ started a call  
+ join discord 
+ the private one 
+ do it or i will meme you off the flat earth 
+ uh 
+                                                                          c 1                      i                       
+ chin 
+ a 
+ heh  thats completely random data 
+ only about 1 or 2 latin characters  mainly since there are  10k chinese characters and  60 latin characters 
+ and by latin i mean a z  a z  and german upsilons 
+    
+ https   www youtube com watch v  qwslot0 qg 
+ rip  these videos are hilarious 
+ started a call  
+ started a call  
+    
+ started a call  
+ retard 
+ you have to accept the match 
+ started a call  
+ when a light tank with paper thin armor and a shit gun does more damage then a top tier  well armored  high dpm comet 
+  amixer  d pulse   play   kill  9 mp3    
+ so i was on ebay 
+ and found this  https   www ebay com itm 7 inch lcd screen display monitor for raspberry pi driver board hdmi vga 2av 142863972639 epid 26024150074 hash item21435b391f g ad0aaosw6gra8b42 
+ wtf 
+ how does someone design that board and live with themselves 
+ gg 
+ who tf designs that 
+ this is sop fucking badly made 
+ its only 30  so if you disable the ballest it would be worth it 
+ lol 
+ started a call  
+ started a call  
+ so basically i wanted to do the server on that website like 100000 times using a bot right  
+ well when i went to the website i got this 
+ so i guess i cant do the survey  
+ also these dumbasses are using windows for a webserver 
+  mass message  i m making a new account  and this one will be removed  
+ egg 
+           
+ about fucking time 
+ read it agan 
+ i did 
+ lmo 
+ its good that they are actually releasing a statement that isn t   were working on it   
+ meh  linux gaming has just been growing eventually unity will have to start supporting it 
+ yea 
+ especially since windows 10 october update 
+ rip 
+ my ip is 1 
+  rip            0x1      0x1  
+ that means i am overpopping 
+ somewhere in here 
+    asm

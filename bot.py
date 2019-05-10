@@ -17,6 +17,7 @@ bot = commands.Bot(command_prefix=prefix, description=description)
 @bot.event
 async def on_ready():
     print("We're all ready!\n\n")
+    await bot.change_presence(game=discord.Game(name="Awaiting..."))
 
 @bot.event
 async def on_message(msg):
@@ -29,22 +30,27 @@ async def on_message(msg):
     if msg.channel.id==writingchannel and msg.author.id != bot.user.id:
         print("Processing "+stdIn)
         snv.clean_file("568022407701594112/readdata")
-        await bot.send_message(msg.channel,ctb.chat(stdIn))
+        await bot.send_typing(msg.channel)
+        send=snv.strFilter(str(ctb.chat(stdIn)))
+        await bot.send_message(msg.channel,send)
+        print("UNTRAINED ON "+stdIn)
 
-    if msg.channel.id == readingchannel or readingchannel == "all":
+    if msg.channel.id == readingchannel or readingchannel == "all" :
             print('------')
             print(str(readingchannel))
             print(str(snv.word_count(stdIn)))
             print(str(msg.channel.id))
             print(msg.content)
             print('------\nResponse:')
-            if snv.word_count(stdIn) > 0 and msg.author.id != bot.user.id:
+            if snv.word_count(stdIn) > 0 and msg.author.id != bot.user.id and msg.channel.id != writingchannel:
                 f=open("568022407701594112/readdata","a+")
                 f.write(stdIn+"\n") 
                 print("Assimilated")
+                await bot.change_presence(game=discord.Game(name="Taught a line!"))
                 f.close()
             else:
                 print("Ignored")
+                await bot.change_presence(game=discord.Game(name="Awaiting..."))
 
 	
 @bot.command(pass_context=True)

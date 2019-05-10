@@ -4,6 +4,9 @@ from pathlib import Path
 from spellchecker import SpellChecker
 from difflib import SequenceMatcher
 from shutil import copyfile
+import requests
+from urllib.request import Request, urlopen
+
 
 path="."
 #random line of file
@@ -28,7 +31,11 @@ def clean_file(filename):
             lines_seen.add(line)
     outfile.close()
     os.remove(path+"/"+filename+".old")
-    
+def assfart():
+    url="http://assf.art/api/random/index.php"
+    req = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    bullshit = urlopen(req).read()
+    return strFilter(str(bullshit))
 #filter text to a-Z0-9
 def strFilter(stdin):
 	return re.sub("[^a-zA-Z0-9]"," ", stdin.lower().strip())

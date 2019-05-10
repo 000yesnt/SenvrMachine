@@ -3,15 +3,15 @@ import senvrlib as snv
 import sys
 chatbot = ChatBot(
     'Senvr200',
-    trainer='chatterbot.trainers.ListTrainer',
     logic_adapters=[
         {
             'import_path': 'chatterbot.logic.BestMatch',
-            'default_response': 'FAIL',
-            'maximum_similarity_threshold': 0.70
+            'default_response': 'UNTRAINED',
+            'maximum_similarity_threshold': 0.50
         }
-    ]
+    ],
 )
+
 
 
 def chat(stdIn):
