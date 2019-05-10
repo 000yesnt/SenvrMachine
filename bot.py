@@ -38,7 +38,7 @@ async def on_message(msg):
     readingchannel=snv.readvar("readingchannel","568022407701594112")
     writingchannel=snv.readvar("writingchannel","568022407701594112")
     stdIn=snv.strFilter(msg.content)	
-    if msg.author.id != bot.user.id && not msg.author.bot:
+    if msg.author.id != bot.user.id and not msg.author.bot:
         print("Processing "+stdIn)
         snv.clean_file(datfilepath)
         await bot.send_typing(msg.channel)
