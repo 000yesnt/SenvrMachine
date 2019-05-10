@@ -41,7 +41,7 @@ with open('568022407701594112/readdata') as my_file:
 
 trainer = ListTrainer(chatbot)
 trainer.train(conversation)
-trainer.train(open("machinefile.txt","r").readlines())
+trainer.train(open("TRAINING-DATA.txt","r").readlines())
 
 #chatterbot.trainers.UbuntuCorpusTrainer(chatbot)
 

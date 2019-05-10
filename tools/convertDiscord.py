@@ -4,12 +4,23 @@ import re
 import csv
 import time
 import random
+import codecs
 from shutil import copyfile
 import numpy as np
 import pandas as pd
 path=sys.argv[1]
 def strFilter(stdin):
 	return re.sub("[^a-zA-Z0-9]"," ", stdin.lower().strip())
+def clean_file(filename):
+    if not os.path.isfile(filename):
+        print("{} does not exist ".format(filename))
+        return
+    with open(filename) as filehandle:
+        lines = filehandle.readlines()
+
+    with open(filename, 'w', encoding='utf8') as filehandle:
+        lines = filter(lambda x: x.strip(), lines)
+        filehandle.writelines(lines) 
 
 while os.path.exists(path) == False or len(path) < 1:
     path = input("Path argument invalid. Please input a path: ")
@@ -56,7 +67,7 @@ while user2=="":
 print("USER 1: "+user1)
 print("USER 2: "+user2+"\n\n")
 #print(df.sample(1).Author)
-tempfile=open("machinefile-old","w+")
+outfile=open("machinefile","w+")
 datafile=open(path,"r").readlines()
 #string=str(datafile[SELECTIONHERE]).replace(user1,'').replace(user2,'')
 i=0
@@ -69,14 +80,15 @@ while i < len(datafile):
         break
     try:	
         if len(str_list[2]) < 3 and not str_list.startswith("http"):
-            tempfile.write(strFilter(str_list[3])+"\n")
+            outfile.write(strFilter(str_list[3])+"\n")
             print(strFilter(str_list[3])+"\n")
         else:
-            tempfile.write(strFilter(str_list[2])+"\n")
+            outfile.write(strFilter(str_list[2])+"\n")
             print(strFilter(str_list[2])+"\n")
         
     except Exception as e:
         pass
-tempfile.close()
+clean_file("machinefile")
+outfile.close()
 
 #print(str(df.sample(1)).split('\n')[2])
