@@ -34,13 +34,13 @@ conversation = [
     "Thank you.",
     "You're welcome."
 ]
-with open('568022407701594112/readdata') as my_file:
-        for line in my_file:
-                conversation.append(line)
-                print("added "+line)
+#with open('568022407701594112/readdata') as my_file:
+#        for line in my_file:
+#                conversation.append(line)
+#                print("added "+line)
 
 trainer = ListTrainer(chatbot)
-trainer.train(conversation)
+#trainer.train(conversation)
 trainer.train(open("TRAINING-DATA.txt","r").readlines())
 
 #chatterbot.trainers.UbuntuCorpusTrainer(chatbot)
