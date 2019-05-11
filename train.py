@@ -3,9 +3,11 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
 import senvrlib as snv
+
 import sys
+print("Training the bot")
 chatbot = ChatBot(
-    'Senvr200',
+    'Senvr040',
     storage_adapter="chatterbot.storage.SQLStorageAdapter",
     logic_adapters=[
         {
@@ -19,29 +21,37 @@ chatbot = ChatBot(
 
 trainer = ChatterBotCorpusTrainer(chatbot)
 trainer.train(
-    "chatterbot.corpus.english.greetings",
-    "chatterbot.corpus.english.conversations"
+    "chatterbot.corpus.english.ai",
 )
 
 
 
+
+
 conversation = [
-    "Hello",
-    "Hi there!",
-    "How are you doing?",
-    "I'm doing great.",
-    "That is good to hear",
-    "Thank you.",
-    "You're welcome."
+    "sorry",
+    "its ok",
+    "senvr is gay",
+    "no",
+    "no",
+    "yed",
+    "shut up",
+    "retrain",
+    "NO NOT AGAN",
+    "ree"
 ]
+
 #with open('568022407701594112/readdata') as my_file:
 #        for line in my_file:
 #                conversation.append(line)
 #                print("added "+line)
 
 trainer = ListTrainer(chatbot)
-#trainer.train(conversation)
+trainer.train(conversation)
+snv.clean_file("TRAINING-DATA.txt")
 trainer.train(open("TRAINING-DATA.txt","r").readlines())
-
+trauner=chatterbot.trainers.UbuntuCorpusTrainer(ChatBot)
+trainer.train("/usr/local/lib/python3.6/site-packages/chatterbot_corpus/data/ubuntu_dialogs/")
+trainer.train("chatterbot.corpus.ubuntu_dialogs")
 #chatterbot.trainers.UbuntuCorpusTrainer(chatbot)
 

@@ -1,5 +1,6 @@
 print("Loading libraries...")
 import discord
+import asyncio
 from discord.ext import commands
 import random
 import senvrlib as snv
@@ -13,16 +14,19 @@ readingchannel="all"
 writingchannel=""
 async def status_task():
     while True:
-        await asyncio.sleep(10)
-        VER=open("VERSION","r")
-        await bot.change_presence(game=discord.Game(name="[AwR]Waiting..."))
-        VER.close
+        await asyncio.sleep(2)
+        await bot.change_presence(game=discord.Game(name="(0)"))
 print('Libraries loaded. Loading bot...')
 bot = commands.Bot(command_prefix=prefix, description=description)
 @bot.event
 async def on_ready():
-    print("We're all ready!\n\n")
-    await bot.change_presence(game=discord.Game(name="[AwR]Initialized..."))
+    print('------')
+    print('Logged in as')
+    print(bot.user.name)
+    print(bot.user.id)
+    await bot.loop.create_task(status_task())
+    print("------\n")
+    print("We're all ready:\n")
 
 
 datfilepath="TRAINING-DATA.txt"
@@ -31,24 +35,27 @@ trainingdata=open(datfilepath,"r").readlines()
 
 @bot.event
 async def on_message(msg):
-    await bot.change_presence(game=discord.Game(name="[AwR]Waiting..."))
-    if msg.content.startswith(prefix):
+    await bot.change_presence(game=discord.Game(name="[1]"))
+    stdIn=snv.strFilter(msg.content)
+    if msg.content.startswith(prefix) or len(stdIn) < 2:
         await bot.process_commands(msg)
         return False
     readingchannel=snv.readvar("readingchannel","568022407701594112")
     writingchannel=snv.readvar("writingchannel","568022407701594112")
-    stdIn=snv.strFilter(msg.content)	
     if msg.author.id != bot.user.id and not msg.author.bot:
-        print("Processing "+stdIn)
+        print('-----------------------------------------------\n'+"Processing "+stdIn)
         snv.clean_file(datfilepath)
         await bot.send_typing(msg.channel)
         send=snv.strFilter(str(ctb.chat(stdIn)))
         if send != 'untrained':
+            print("TRAINED REPLY")            
+            print("Replied with: "+send)
             await bot.send_message(msg.channel,send)
-            await bot.change_presence(game=discord.Game(name="(R)Replied."))
+            await bot.change_presence(game=discord.Game(name="{2}"))
+            print('-----------------------------------------------')
             return
         else: 
-            print("Caught untrainederror on "+stdIn)
+            print("UNTRAINED REPLY")
             f=open(datfilepath,"a")
             send=snv.random_line(datfilepath)
             trainingdata.append(stdIn+"\n")
@@ -57,7 +64,9 @@ async def on_message(msg):
                 f.write(line)
             f.close()
             await bot.send_message(msg.channel,send)
-            await bot.change_presence(game=discord.Game(name="(AwR)Awaiting..."))
+            print("Replied with: "+send)
+            await bot.change_presence(game=discord.Game(name="[1]"))
+            print('-----------------------------------------------')
             return
 #    if msg.channel.id == readingchannel or readingchannel == "all" :
 #            print('------')
@@ -82,28 +91,36 @@ async def readHere(ctx):
     readingchannel=str(ctx.message.channel.id)
     await bot.say("Reading messages from channelid "+str(readingchannel));
     snv.flashvar("readingchannel",readingchannel,"568022407701594112")
+    await bot.change_presence(game=discord.Game(name="[1]"))
 
 @bot.command(pass_context=True)
 async def readAll(ctx):
     readingchannel="all"
     await bot.say("Reading message to channelid "+str(readingchannel));
     snv.flashvar("readingchannel",readingchannel,"568022407701594112")
+    await bot.change_presence(game=discord.Game(name="[1]"))
 
 @bot.command(pass_context=True)
 async def writeHere(ctx):
     writingchannel=str(ctx.message.channel.id)
     await bot.say("Writing messages to channelid "+str(writingchannel));
     snv.flashvar("writingchannel",writingchannel,"568022407701594112")
+    await bot.change_presence(game=discord.Game(name="[1]"))
+
 @bot.command(pass_context=True)
 async def writeAll(ctx):
     writingchannel="all"
     await bot.say("Writing messages to channelid "+str(writingchannel));
     snv.flashvar("writingchannel",writingchannel,"568022407701594112")
+    await bot.change_presence(game=discord.Game(name="[1]"))
+
 @bot.command()
 async def returnData():
     readingchannel=snv.readvar("readingchannel","568022407701594112")
     writingchannel=snv.readvar("writingchannel","568022407701594112")
     await bot.say("I read in: "+readingchannel+"\nI respond in :"+writingchannel)
+    await bot.change_presence(game=discord.Game(name="[1]"))
+
 	    
     
 

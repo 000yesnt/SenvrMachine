@@ -51,7 +51,7 @@ def log(severity, event):
 	DAT=str(strFilter(event))
 	#f=open(logfile,"a")
 	#f.write(DATE+":"+SEV+": "+DAT)
-	logging.basicConfig(filename=logfile,level=logging.INFO)
+	logging.basicConfig(filename=logfile,level=logging.WARN)
 	if severity == "debug":
 		logging.debug(DAT)
 	if severity == "info":
@@ -70,11 +70,11 @@ def readvar(name, id):
 		f=open(str(id)+"/"+name,"r")
 		data=f.read()
 		f.close()
-		log("info","read data "+data+" from "+id+"/"+name)
+#		log("info","read data "+data+" from "+id+"/"+name)
 		return data
 	else:
 		return ""
-		log("warn","failed to read data from "+id+"/"+name)
+#		log("warn","failed to read data from "+id+"/"+name)
 
 #change or make a variable
 def flashvar(name, var, id):

@@ -67,7 +67,7 @@ while user2=="":
 print("USER 1: "+user1)
 print("USER 2: "+user2+"\n\n")
 #print(df.sample(1).Author)
-outfile=open("machinefile","w+")
+outfile=open("MACHINED-"+path,"w+")
 datafile=open(path,"r").readlines()
 #string=str(datafile[SELECTIONHERE]).replace(user1,'').replace(user2,'')
 i=0
@@ -79,16 +79,15 @@ while i < len(datafile):
     if i == len(datafile)-3:
         break
     try:	
-        if len(str_list[2]) < 3 and not str_list.startswith("http"):
-            outfile.write(strFilter(str_list[3])+"\n")
-            print(strFilter(str_list[3])+"\n")
+        if len(str_list[2]) < 3 and not str_list[2].startswith("http") and not str_list[2].startswiwth("started a call"):
+            outfile.write("")
         else:
             outfile.write(strFilter(str_list[2])+"\n")
-            print(strFilter(str_list[2])+"\n")
         
     except Exception as e:
         pass
-clean_file("machinefile")
+outfile.write("\n")
+clean_file("MACHINED-"+path)
 outfile.close()
 
 #print(str(df.sample(1)).split('\n')[2])
