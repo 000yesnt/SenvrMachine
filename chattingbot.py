@@ -7,7 +7,7 @@ chatbot = ChatBot(
         {
             'import_path': 'chatterbot.logic.BestMatch',
             'default_response': 'UNTRAINED',
-            'maximum_similarity_threshold': 0.50
+            'maximum_similarity_threshold': 0.80
         }
     ],
 )

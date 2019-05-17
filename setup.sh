@@ -9,7 +9,7 @@ echo "Python3.6 is not installed. Please install it. Only 3.6. Not 3.7. Or you c
 exit 1
 fi
 
-sudo pip3 install -r requirements.txt
-sudo pip install -Iv https://github.com/Rapptz/discord.py/archive/v0.16.12.tar.gz
+sudo pip3 install -r requirements.txt --timeout 5
+sudo pip3 install -Iv https://github.com/Rapptz/discord.py/archive/v0.16.12.tar.gz --timeout 5
 echo "Note: You might find some dependancy errors! please make an issue report on the github so i can fix my stupid bullshit."
 
