@@ -34,32 +34,32 @@ trainingdata=open(datfilepath,"r").readlines()
 
 
 @bot.event
-async def on_message(msg):
-    await bot.change_presence(game=discord.Game(name="[1]"))
-    stdIn=snv.strFilter(msg.content)
-    if msg.content.startswith(prefix) or len(stdIn) < 2:
-        await bot.process_commands(msg)
+async def on_message(msg): #processes messages in readingchannel and either replies with trained data or stores as training data
+    await bot.change_presence(game=discord.Game(name="[1]")) #   "hey someone typed in a channel, lets check it out"
+    stdIn=snv.strFilter(msg.content) #makes the bot not explode like a thermonuclear bomb
+    if msg.content.startswith(prefix) or len(stdIn) < 2: #before digesting or replying to the message, checks if it is prefixed
+        await bot.process_commands(msg) #if it did, throw all the code below into oblivion. also while i'm at it, yes i called processing "digesting"
         return False
     readingchannel=snv.readvar("readingchannel","568022407701594112")
     writingchannel=snv.readvar("writingchannel","568022407701594112")
-    if msg.author.id != bot.user.id and not msg.author.bot:
+    if msg.author.id != bot.user.id and not msg.author.bot: #safeguard so the bot doesn't reply to itself like a baby with schizophrenia
         print('-----------------------------------------------\n'+"Processing "+stdIn)
         snv.clean_file(datfilepath)
-        await bot.send_typing(msg.channel)
+        await bot.send_typing(msg.channel) #human-like typing
         send=snv.strFilter(str(ctb.chat(stdIn)))
-        if send != 'untrained':
-            print("TRAINED REPLY")            
+        if send != 'untrained': #did the bot learn how to reply?
+            print("TRAINED REPLY") #if it did, do the ue
             print("Replied with: "+send)
             await bot.send_message(msg.channel,send)
-            await bot.change_presence(game=discord.Game(name="{2}"))
+            await bot.change_presence(game=discord.Game(name="{2}")) #    "yeah i got this"
             print('-----------------------------------------------')
             return
-        else: 
+        else: #opposite of above
             print("UNTRAINED REPLY")
             f=open(datfilepath,"a")
             send=snv.random_line(datfilepath)
             trainingdata.append(stdIn+"\n")
-            trainingdata.append(send+"\n")             
+            trainingdata.append(send+"\n")
             for line in trainingdata:
                 f.write(line)
             f.close()
@@ -217,6 +217,7 @@ async def humanType(ctx, msg, speed=1):
 bot.remove_command('help')
 
 ###BOT COMMANDS###
+#below is what i'm guessing an enhanced archive of SenvrBot
 @bot.command(name="help", brief="Returns all commands available", pass_context=True)
 async def help(ctx):
 	commands=list(bot.commands.values())
