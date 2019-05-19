@@ -337,6 +337,6 @@ async def on_command_error(error, ctx):
 	    
     
 
-
-bot.run('NTY4MDIyNDA3NzAxNTk0MTEy.XNETWw.R0VsK_TUVuyYuMSAGrFrrUGeTYA')
+tokn = open("tkn", "r").read()
+bot.run(str(tokn))
 #print("We're all ready!\n\n")
