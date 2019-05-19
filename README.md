@@ -3,6 +3,8 @@ SenvrBot: Machine Learning
 
 My (late as fuck) take on the Machine Learning fad.
 
+edit: apparently  this fuckin fork is the only visible version of senvrmachine
+
 ## Why are you doing this?
 Because shut up
 
