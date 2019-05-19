@@ -1,3 +1,4 @@
 pyspellchecker
 chatterbot
 pandas
+chatterbot_corpus
