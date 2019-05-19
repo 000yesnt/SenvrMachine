@@ -320,6 +320,12 @@ async def play(ctx,id=-1):
         await asyncio.sleep(1)
     await bot.delete_message(message)
 
+#you know what would be cool
+#if the assf.art API command came back
+@bot.command(pass_context=True,brief="Returns assf.art text",description="Gets random text from assf.art API and returns it to chat")
+async def assf(ctx):
+	assft = snv.assfart()
+	await bot.send_message(ctx.message.channel, assft)
 
 ##END BOT COMMANDS
 #handle errors
