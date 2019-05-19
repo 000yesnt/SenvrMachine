@@ -32,4 +32,5 @@ it won't hurt if you have common sense too
 
 ## Contributing
 dont /s
+
 just fork the repo and do whatever you think will improve the bot
