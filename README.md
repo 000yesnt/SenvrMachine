@@ -1,3 +1,5 @@
+# This is an archive of a very old version of SenvrMachine. By trying to use this code, you agree that, when something goes wrong, no support will be provided at all.
+
 # SenvrMachine
 SenvrBot: Machine Learning
 
